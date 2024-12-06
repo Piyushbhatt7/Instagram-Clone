@@ -35,4 +35,7 @@ class Helper {
     );
 
   }
+
+  static CustomImage
+  
 }
