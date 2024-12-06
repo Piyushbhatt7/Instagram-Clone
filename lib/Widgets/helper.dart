@@ -36,6 +36,9 @@ class Helper {
 
   }
 
-  static CustomImage
-  
+  static CustomImage({required String imgurl}){
+
+    return Image.asset(name)
+  }
+
 }
