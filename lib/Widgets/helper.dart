@@ -38,7 +38,7 @@ class Helper {
 
   static CustomImage({required String imgurl}){
 
-    return Image.asset(name)
+    return Image.asset("assets/images/instlogo.png");
   }
 
 }
