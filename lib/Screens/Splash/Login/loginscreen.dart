@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
@@ -10,8 +9,7 @@ class Loginscreen extends StatefulWidget {
 }
 
 class _LoginscreenState extends State<Loginscreen> {
-
- TextEditingController emailController = TextEditingController();
+  TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
@@ -22,53 +20,56 @@ class _LoginscreenState extends State<Loginscreen> {
       //    backgroundColor: Colors.blue,
       //  ),
 
-       body: Center(
-         child: Column(
+      body: Center(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Helper.CustomImage(imgurl: 'instatext.png'),
-
             SizedBox(
               height: 20,
             ),
-
-            Helper.CustomTextField(controller: emailController, text: "Email", tohide: false),
-            SizedBox(height: 12,),
-            Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true),
-
+            Helper.CustomTextField(
+                controller: emailController, text: "Email", tohide: false),
+            SizedBox(
+              height: 12,
+            ),
+            Helper.CustomTextField(
+                controller: passwordController, text: "Password", tohide: true),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Padding(padding: EdgeInsets.only(right: 50),
-                child: Helper.CustomTextButtom(text: "Forgot password?", callback: (){
-                      
-                }),
+                Padding(
+                  padding: EdgeInsets.only(right: 50),
+                  child: Helper.CustomTextButtom(
+                      text: "Forgot password?", callback: () {}),
                 ),
- 
               ],
             ),
-
-             SizedBox(height: 10,),
-                Helper.CustomButton(callback: (){
-
-                }, buttonname: "Log In"),
-
-                SizedBox(height: 20,),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Helper.CustomImage(imgurl: 'fb.png'),
-                    Helper.CustomTextButtom(text: "Log in with Facebook", callback: (){
-
-                    })
-                  ],
-                )
-
-         
+            SizedBox(
+              height: 10,
+            ),
+            Helper.CustomButton(callback: () {}, buttonname: "Log In"),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Helper.CustomImage(imgurl: 'fb.png'),
+                Helper.CustomTextButtom(
+                    text: "Log in with Facebook", callback: () {})
+              ],
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "OR",
+              style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
+            ),
           ],
-         ),
-       ),
+        ),
+      ),
     );
   }
 }
