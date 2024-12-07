@@ -45,4 +45,15 @@ class Helper {
   static CustomImage({required String imgurl}) {
     return Image.asset("assets/images/$imgurl");
   }
+
+  static CustomButton ({required VoidCallback callback, required String buttonname}){
+
+    return SizedBox(
+          height: 48,
+          width: 344,
+          child: ElevatedButton(onPressed: (){
+               callback();
+          }, child: Text(buttonname, style: TextStyle(fontSize: 14, color: Colors.white),)),
+    );
+  }
 }
