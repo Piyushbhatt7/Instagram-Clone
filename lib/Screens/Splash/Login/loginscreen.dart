@@ -53,7 +53,17 @@ class _LoginscreenState extends State<Loginscreen> {
 
                 }, buttonname: "Log In"),
 
-                SizedBox()
+                SizedBox(height: 20,),
+
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Helper.CustomImage(imgurl: 'fb.png'),
+                    Helper.CustomTextButtom(text: "Log in with Facebook", callback: (){
+
+                    })
+                  ],
+                )
 
          
           ],
