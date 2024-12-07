@@ -37,8 +37,13 @@ class _LoginscreenState extends State<Loginscreen> {
             Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true),
 
             Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Helper.CustomTextButtom(text: "Forgot password?", callback: callback)
+                Padding(padding: EdgeInsets.only(right: 20),
+                child: Helper.CustomTextButtom(text: "Forgot password?", callback: (){
+                      
+                }),
+                )
               ],
             )
 
