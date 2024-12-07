@@ -44,11 +44,14 @@ class _LoginscreenState extends State<Loginscreen> {
                       
                 }),
                 ),
-
-                SizedBox(height: 20,),
-                
+ 
               ],
-            )
+            ),
+
+             SizedBox(height: 10,),
+                Helper.CustomButton(callback: (){
+
+                }, buttonname: "Log In")
 
          
           ],
