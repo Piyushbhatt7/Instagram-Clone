@@ -39,7 +39,7 @@ class _LoginscreenState extends State<Loginscreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Padding(padding: EdgeInsets.only(right: 20),
+                Padding(padding: EdgeInsets.only(right: 50),
                 child: Helper.CustomTextButtom(text: "Forgot password?", callback: (){
                       
                 }),
