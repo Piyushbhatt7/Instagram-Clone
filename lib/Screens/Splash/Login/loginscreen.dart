@@ -36,7 +36,11 @@ class _LoginscreenState extends State<Loginscreen> {
             SizedBox(height: 12,),
             Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true),
 
-            row
+            Row(
+              children: [
+                Helper.CustomTextButtom(text: "Forgot password?", callback: callback)
+              ],
+            )
 
          
           ],
