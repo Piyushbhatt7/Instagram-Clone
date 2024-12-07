@@ -50,8 +50,8 @@ class Helper {
   static CustomButton(
       {required VoidCallback callback, required String buttonname}) {
     return SizedBox(
-      height: 48,
-      width: 344,
+      height: 44,
+      width: 342,
       child: ElevatedButton(
           onPressed: () {
             callback();
