@@ -66,7 +66,17 @@ class _LoginscreenState extends State<Loginscreen> {
             Text(
               "OR",
               style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
+              
             ),
+
+            SizedBox(height: 10,),
+          
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("Don't have an account?", style:  TextStyle(fontSize: 14, color: Colors.white),)
+              ],
+            )
           ],
         ),
       ),
