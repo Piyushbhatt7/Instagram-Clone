@@ -13,7 +13,7 @@ class Helper {
       width: 343,
       decoration: BoxDecoration(
           color: Color(0XFF121212),
-          border: Border.all(color: Color(0xFFFFFFFF)),
+          border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(5)),
       child: TextField(
         controller: controller,
