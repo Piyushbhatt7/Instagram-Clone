@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+        body: Column(
+            children: [
+                Helper.CustomImage(imgurl: 'assets/images/instlogo.png')
+            ],
+        ),
+    );
   }
 }
