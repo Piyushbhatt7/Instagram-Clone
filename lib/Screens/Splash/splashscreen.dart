@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
         body: Column(
             children: [
-                Helper.CustomImage(imgurl: 'assets/images/instlogo.png')
+                Helper.CustomImage(imgurl: 'instlogo.png')
             ],
         ),
     );
