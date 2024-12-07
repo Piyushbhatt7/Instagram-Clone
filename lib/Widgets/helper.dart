@@ -15,17 +15,20 @@ class Helper {
           color: Color(0XFF121212),
           border: Border.all(color: Colors.grey.shade700),
           borderRadius: BorderRadius.circular(5)),
-      child: TextField(
-        controller: controller,
-        obscureText: tohide,
-        keyboardType: textinputtype,
-        decoration: InputDecoration(
-            hintText: text,
-            hintStyle: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.normal,
-                color: Color(0XFFFFFFFF)),
-            border: InputBorder.none),
+      child: Padding(
+        padding: const EdgeInsets.only(left: 20.0),
+        child: TextField(
+          controller: controller,
+          obscureText: tohide,
+          keyboardType: textinputtype,
+          decoration: InputDecoration(
+              hintText: text,
+              hintStyle: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.normal,
+                  color: Color(0XFFFFFFFF)),
+              border: InputBorder.none),
+        ),
       ),
     );
   }
