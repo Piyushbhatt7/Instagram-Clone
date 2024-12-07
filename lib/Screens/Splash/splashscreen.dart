@@ -12,6 +12,7 @@ class SplashScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
               children: [
                   Helper.CustomImage(imgurl: 'instlogo.png'),
+                  SizedBox(height: 10,),
                   Helper.CustomImage(imgurl: 'instatext.png'),
               ],
           ),
