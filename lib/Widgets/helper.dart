@@ -56,7 +56,10 @@ class Helper {
           onPressed: () {
             callback();
             
-          }, style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3797EF), shape: ),
+          }, style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3797EF), shape: RoundedRectangleBorder(
+
+            borderRadius: BorderRadius.circular(5),
+          )),
           child: Center(
               child: Text(
             buttonname,
