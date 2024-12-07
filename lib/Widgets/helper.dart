@@ -7,7 +7,7 @@ class Helper {
     return TextButton(onPressed: (){
 
     }, child: Text(text, style: TextStyle(fontSize: 12, color: Color(0xFF3797EF)),)
-    )
+    );
   }
 
  // static CustomTextField({required TextEditingController controller , required String text, required hintText})
