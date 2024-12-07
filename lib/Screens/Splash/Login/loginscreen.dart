@@ -8,6 +8,7 @@ class Loginscreen extends StatelessWidget {
     return Scaffold(
        appBar: AppBar(
          title: Text("Login Screen"),
+         centerTitle: true,
        ),
     );
   }
