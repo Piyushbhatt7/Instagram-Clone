@@ -9,8 +9,10 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                  Helper.CustomImage(imgurl: 'instlogo.png')
+                  Helper.CustomImage(imgurl: 'instlogo.png'),
+                  Helper.CustomImage(imgurl: 'instatext.png'),
               ],
           ),
         ),
