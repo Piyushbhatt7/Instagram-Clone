@@ -74,7 +74,11 @@ class _LoginscreenState extends State<Loginscreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Don't have an account?", style:  TextStyle(fontSize: 14, color: Colors.white),)
+                Text("Don't have an account?", style:  TextStyle(fontSize: 14, color: Colors.white),),
+
+                Helper.CustomTextButtom(text: "Sign Up", callback: (){
+                  
+                })
               ],
             )
           ],
