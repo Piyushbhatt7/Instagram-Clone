@@ -53,7 +53,7 @@ class Helper {
           width: 344,
           child: ElevatedButton(onPressed: (){
                callback();
-          }, child: Text(buttonname, style: TextStyle(fontSize: 14, color: Colors.white),)),
+          }, child: Center(child: Text(buttonname, style: TextStyle(fontSize: 14, color: Colors.white),))),
     );
   }
 }
