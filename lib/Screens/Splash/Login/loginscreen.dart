@@ -43,7 +43,10 @@ class _LoginscreenState extends State<Loginscreen> {
                 child: Helper.CustomTextButtom(text: "Forgot password?", callback: (){
                       
                 }),
-                )
+                ),
+
+                SizedBox(height: 20,),
+                
               ],
             )
 
