@@ -32,7 +32,9 @@ class _LoginscreenState extends State<Loginscreen> {
               height: 20,
             ),
 
-            Helper.CustomTextField(controller: emailController, text: "Email", tohide: false, textinputtype: textinputtype)
+            Helper.CustomTextField(controller: emailController, text: "Email", tohide: false),
+            SizedBox(height: 12,),
+            Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true)
 
          
           ],
