@@ -1,22 +1,23 @@
 import 'package:flutter/material.dart';
 
 class Helper {
-
-  static CustomTextButtom({required String text, required VoidCallback callback}){
-
-    return TextButton(onPressed: (){
-
-    }, child: Text(text, style: TextStyle(fontSize: 12, color: Color(0xFF3797EF)),)
-    );
+  static CustomTextButtom(
+      {required String text, required VoidCallback callback}) {
+    return TextButton(
+        onPressed: () {},
+        child: Text(
+          text,
+          style: TextStyle(fontSize: 12, color: Color(0xFF3797EF)),
+        ));
   }
 
- // static CustomTextField({required TextEditingController controller , required String text, required hintText})
-  static CustomTextField(
-      {required TextEditingController controller,
-      required String text,
-      required bool tohide,
-      //required TextInputType textinputtype
-      }) {
+  // static CustomTextField({required TextEditingController controller , required String text, required hintText})
+  static CustomTextField({
+    required TextEditingController controller,
+    required String text,
+    required bool tohide,
+    //required TextInputType textinputtype
+  }) {
     return Container(
       height: 50,
       width: 343,
@@ -29,7 +30,7 @@ class Helper {
         child: TextField(
           controller: controller,
           obscureText: tohide,
-         // keyboardType: textinputtype,
+          // keyboardType: textinputtype,
           decoration: InputDecoration(
               hintText: text,
               hintStyle: TextStyle(
@@ -46,14 +47,20 @@ class Helper {
     return Image.asset("assets/images/$imgurl");
   }
 
-  static CustomButton ({required VoidCallback callback, required String buttonname}){
-
+  static CustomButton(
+      {required VoidCallback callback, required String buttonname}) {
     return SizedBox(
-          height: 48,
-          width: 344,
-          child: ElevatedButton(onPressed: (){
-               callback();
-          }, child: Center(child: Text(buttonname, style: TextStyle(fontSize: 14, color: Colors.white),))),
+      height: 48,
+      width: 344,
+      child: ElevatedButton(
+          onPressed: () {
+            callback();
+          },
+          child: Center(
+              child: Text(
+            buttonname,
+            style: TextStyle(fontSize: 14, color: Colors.white),
+          ))),
     );
   }
 }
