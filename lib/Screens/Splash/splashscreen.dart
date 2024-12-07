@@ -7,10 +7,12 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
-            children: [
-                Helper.CustomImage(imgurl: 'instlogo.png')
-            ],
+        body: Center(
+          child: Column(
+              children: [
+                  Helper.CustomImage(imgurl: 'instlogo.png')
+              ],
+          ),
         ),
     );
   }
