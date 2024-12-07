@@ -9,7 +9,7 @@ class Helper {
       required bool tohide,
       required TextInputType textinputtype}) {
     return Container(
-      height: 44,
+      height: 50,
       width: 343,
       decoration: BoxDecoration(
           color: Color(0XFF121212),

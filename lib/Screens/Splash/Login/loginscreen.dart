@@ -11,7 +11,8 @@ class Loginscreen extends StatefulWidget {
 
 class _LoginscreenState extends State<Loginscreen> {
 
- 
+ TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +26,14 @@ class _LoginscreenState extends State<Loginscreen> {
          child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Helper.CustomImage(imgurl: 'instatext.png')
+            Helper.CustomImage(imgurl: 'instatext.png'),
+
+            SizedBox(
+              height: 20,
+            ),
+
+            Helper.CustomTextField(controller: emailController, text: "Email", tohide: false),
+            
          
           ],
          ),
