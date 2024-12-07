@@ -12,27 +12,30 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
-     @override
+  @override
   void initState() {
     super.initState();
     Timer(Duration(seconds: 3), () {
-       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> Loginscreen()));
+      Navigator.pushReplacement(
+          context, MaterialPageRoute(builder: (context) => Loginscreen()));
     });
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                  Helper.CustomImage(imgurl: 'instlogo.png'),
-                  SizedBox(height: 10,),
-                  Helper.CustomImage(imgurl: 'instatext.png'),
-              ],
-          ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Helper.CustomImage(imgurl: 'instlogo.png'),
+            SizedBox(
+              height: 10,
+            ),
+            Helper.CustomImage(imgurl: 'instatext.png'),
+          ],
         ),
+      ),
     );
   }
 }
