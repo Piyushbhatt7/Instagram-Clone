@@ -30,7 +30,11 @@ class SignUp extends StatelessWidget {
               height: 10,
             ),
             Helper.CustomTextField(
-                controller: usernameController, text: "Username", tohide: false)
+                controller: usernameController, text: "Username", tohide: false),
+
+                 SizedBox(height: 30,),
+
+              Helper.CustomButton(callback: (){}, buttonname: "Sign Up")
           ],
         ),
       ),
