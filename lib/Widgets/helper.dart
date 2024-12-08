@@ -4,7 +4,9 @@ class Helper {
   static CustomTextButtom(
       {required String text, required VoidCallback callback}) {
     return TextButton(
-        onPressed: () {},
+        onPressed: () {
+          callback();
+        },
         child: Text(
           text,
           style: TextStyle(fontSize: 12, color: Color(0xFF3797EF)),
