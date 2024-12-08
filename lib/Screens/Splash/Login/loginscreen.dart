@@ -27,7 +27,7 @@ class _LoginscreenState extends State<Loginscreen> {
           children: [
             Helper.CustomImage(imgurl: 'instatext.png'),
             SizedBox(
-              height: 20,
+              height: 30,
             ),
             Helper.CustomTextField(
                 controller: emailController, text: "Email", tohide: false),
@@ -62,7 +62,7 @@ class _LoginscreenState extends State<Loginscreen> {
               ],
             ),
             SizedBox(
-              height: 10,
+              height: 15,
             ),
             Text(
               "OR",
@@ -70,7 +70,7 @@ class _LoginscreenState extends State<Loginscreen> {
               
             ),
 
-            SizedBox(height: 18,),
+            SizedBox(height: 15,),
           
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

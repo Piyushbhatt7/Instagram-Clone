@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Instagram',
       theme: ThemeData.dark(),
-      home: SplashScreen(),
+      home: SignUp(),
     );
   }
 }
