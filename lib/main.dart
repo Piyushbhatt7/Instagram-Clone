@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Splash/Login/loginscreen.dart';
 import 'package:instagram_clone/Screens/Splash/splashscreen.dart';
 import 'package:instagram_clone/Screens/signup.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Instagram',
       theme: ThemeData.dark(),
-      home: SignUp(),
+      home: Loginscreen(),
     );
   }
 }

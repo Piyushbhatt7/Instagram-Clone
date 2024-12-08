@@ -27,7 +27,7 @@ class _LoginscreenState extends State<Loginscreen> {
           children: [
             Helper.CustomImage(imgurl: 'instatext.png'),
             SizedBox(
-              height: 30,
+              height: 25,
             ),
             Helper.CustomTextField(
                 controller: emailController, text: "Email", tohide: false),
@@ -51,7 +51,7 @@ class _LoginscreenState extends State<Loginscreen> {
             ),
             Helper.CustomButton(callback: () {}, buttonname: "Log In"),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -62,24 +62,28 @@ class _LoginscreenState extends State<Loginscreen> {
               ],
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
             Text(
               "OR",
               style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
-              
             ),
-
-            SizedBox(height: 15,),
-          
+            SizedBox(
+              height: 10,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Don't have an account?", style:  TextStyle(fontSize: 14, color: Colors.white),),
-
-                Helper.CustomTextButtom(text: "Sign Up", callback: (){
-                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SignUp()));
-                })
+                Text(
+                  "Don't have an account?",
+                  style: TextStyle(fontSize: 15, color: Colors.white),
+                ),
+                Helper.CustomTextButtom(
+                    text: "Sign Up",
+                    callback: () {
+                      Navigator.pushReplacement(context,
+                          MaterialPageRoute(builder: (context) => SignUp()));
+                    })
               ],
             )
           ],

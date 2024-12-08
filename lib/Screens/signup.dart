@@ -48,10 +48,14 @@ class SignUp extends StatelessWidget {
                   "Already hav an account?",
                   style: TextStyle(color: Colors.grey, fontSize: 15),
                 ),
-                Helper.CustomTextButtom(text: "Sign Up", callback: () {
-
-                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Loginscreen()));
-                })
+                Helper.CustomTextButtom(
+                   
+                    callback: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Loginscreen()));
+                    }, text: "Sign Up",)
               ],
             )
           ],
