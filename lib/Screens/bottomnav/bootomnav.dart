@@ -31,8 +31,10 @@ class _BootomNavState extends State<BootomNav> {
     return Scaffold(
            bottomNavigationBar: BottomNavigationBar(items: [
             BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
-             BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
-              BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'))
+            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
+            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
+            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
+            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'))
            ]),
 
 
