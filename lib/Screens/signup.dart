@@ -22,8 +22,9 @@ class SignUp extends StatelessWidget {
             SizedBox(height: 10,),
 
             Helper.CustomTextField(controller: emailController, text: "Email", tohide: false),
-            SizedBox(height: 5,),
+            SizedBox(height: 10,),
             Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true),
+             SizedBox(height: 10,),
             Helper.CustomTextField(controller: usernameController, text: "Username", tohide: false)
           ],
         ),
