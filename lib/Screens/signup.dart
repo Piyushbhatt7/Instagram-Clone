@@ -34,7 +34,15 @@ class SignUp extends StatelessWidget {
 
                  SizedBox(height: 30,),
 
-              Helper.CustomButton(callback: (){}, buttonname: "Sign Up")
+              Helper.CustomButton(callback: (){}, buttonname: "Sign Up"),
+
+               SizedBox(height: 20,),
+
+               Row(
+                children: [
+                  Text("Already hav an account", style: TextStyle(color: Colors.grey, fontSize: 14),),
+                ],
+               )
           ],
         ),
       ),
