@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Splash/Login/loginscreen.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class SignUp extends StatelessWidget {
@@ -45,9 +46,12 @@ class SignUp extends StatelessWidget {
               children: [
                 Text(
                   "Already hav an account?",
-                  style: TextStyle(color: Colors.grey, fontSize: 14),
+                  style: TextStyle(color: Colors.grey, fontSize: 15),
                 ),
-                Helper.CustomTextButtom(text: "Sign Up", callback: () {})
+                Helper.CustomTextButtom(text: "Sign Up", callback: () {
+
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Loginscreen(),));
+                })
               ],
             )
           ],
