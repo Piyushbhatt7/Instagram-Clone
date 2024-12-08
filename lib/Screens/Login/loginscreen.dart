@@ -58,7 +58,10 @@ class _LoginscreenState extends State<Loginscreen> {
               children: [
                 Helper.CustomImage(imgurl: 'fb.png'),
                 Helper.CustomTextButtom(
-                    text: "Log in with Facebook", callback: () {})
+                    text: "Log in with Facebook", callback: () {
+
+                      Navigator.pushReplacement(context, newRoute)
+                    })
               ],
             ),
             SizedBox(
