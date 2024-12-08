@@ -42,9 +42,9 @@ class _BootomNavState extends State<BootomNav> {
         items: [
         BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Search'),
-        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab3.png'),label: 'Post'),
-        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab4.png'),label: 'Heart'),
-        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab5.png'),label: 'Profile'),
+        BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Post'),
+        BottomNavigationBarItem(icon:Icon(Icons.home),label: 'Heart'),
+        BottomNavigationBarItem(icon:Icon(Icons.home),label: 'Profile'),
       ]),
       body: IndexedStack(
         children: pages,
