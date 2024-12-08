@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
@@ -9,7 +10,8 @@ class SignUp extends StatelessWidget {
 
       body: Column(
         children: [
-          
+
+          Helper.CustomImage(imgurl: 'instlogo.png')
         ],
       ),
     );
