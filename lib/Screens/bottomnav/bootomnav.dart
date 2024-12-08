@@ -26,7 +26,13 @@ class _BootomNavState extends State<BootomNav> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(items: [
+      bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.grey,
+
+        
+
+        items: [
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'),label: 'Home'),
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab2.png'),label: 'Search'),
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab3.png'),label: 'Post'),
