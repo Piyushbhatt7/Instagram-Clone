@@ -7,7 +7,7 @@ class HeartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Center(
-        child: Text('Home screen'),
+        child: Text('Heart screen'),
       ),
     );
   }
