@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Home/homescreen.dart';
 import 'package:instagram_clone/Screens/Signup/signup.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
@@ -60,7 +61,7 @@ class _LoginscreenState extends State<Loginscreen> {
                 Helper.CustomTextButtom(
                     text: "Log in with Facebook", callback: () {
 
-                      Navigator.pushReplacement(context, newRoute)
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> BottomNav()));
                     })
               ],
             ),
