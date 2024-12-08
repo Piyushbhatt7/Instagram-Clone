@@ -28,6 +28,7 @@ class _BootomNavState extends State<BootomNav> {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
 
+        backgroundColor: Colors.black,
         type:  BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
