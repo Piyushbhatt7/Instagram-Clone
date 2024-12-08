@@ -30,22 +30,26 @@ class SignUp extends StatelessWidget {
               height: 10,
             ),
             Helper.CustomTextField(
-                controller: usernameController, text: "Username", tohide: false),
-
-                 SizedBox(height: 30,),
-
-              Helper.CustomButton(callback: (){}, buttonname: "Sign Up"),
-
-               SizedBox(height: 20,),
-
-               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text("Already hav an account", style: TextStyle(color: Colors.grey, fontSize: 14),),
-
-                  Helper.CustomTextButtom(text: "Sign Up", callback: (){})
-                ],
-               )
+                controller: usernameController,
+                text: "Username",
+                tohide: false),
+            SizedBox(
+              height: 30,
+            ),
+            Helper.CustomButton(callback: () {}, buttonname: "Sign Up"),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Already hav an account?",
+                  style: TextStyle(color: Colors.grey, fontSize: 14),
+                ),
+                Helper.CustomTextButtom(text: "Sign Up", callback: () {})
+              ],
+            )
           ],
         ),
       ),
