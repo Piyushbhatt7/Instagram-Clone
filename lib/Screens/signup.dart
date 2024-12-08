@@ -49,13 +49,13 @@ class SignUp extends StatelessWidget {
                   style: TextStyle(color: Colors.grey, fontSize: 15),
                 ),
                 Helper.CustomTextButtom(
-                   
                     callback: () {
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
                               builder: (context) => Loginscreen()));
-                    }, text: "Sign Up",)
+                    },
+                    text: "Sign In")
               ],
             )
           ],
