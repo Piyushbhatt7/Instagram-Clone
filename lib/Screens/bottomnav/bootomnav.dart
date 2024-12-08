@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/Screens/Heart/heartscreen.dart';
 import 'package:instagram_clone/Screens/Home/homescreen.dart';
@@ -41,9 +42,9 @@ class _BootomNavState extends State<BootomNav> {
 
         items: [
         BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
-        BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Search'),
-        BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Post'),
-        BottomNavigationBarItem(icon:Icon(Icons.home),label: 'Heart'),
+        BottomNavigationBarItem(icon: Icon(Icons.search),label: 'Search'),
+        BottomNavigationBarItem(icon: ,label: 'Post'),
+        BottomNavigationBarItem(icon:Icon(CupertinoIcons.heart)label: 'Heart'),
         BottomNavigationBarItem(icon:Icon(Icons.home),label: 'Profile'),
       ]),
       body: IndexedStack(
