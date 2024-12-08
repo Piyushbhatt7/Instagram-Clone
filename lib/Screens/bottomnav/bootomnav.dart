@@ -14,35 +14,29 @@ class BootomNav extends StatefulWidget {
 }
 
 class _BootomNavState extends State<BootomNav> {
-
   int curretIndex = 0;
 
-  List<Widget>pages = [
-
+  List<Widget> pages = [
     HomeScreen(),
     SearchScreen(),
     PostScreen(),
     HeartScreen(),
     ProfileScreen(),
-
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-           bottomNavigationBar: BottomNavigationBar(items: [
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png')),
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab2.png')),
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab3.png')),
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab4.png')),
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab5.png'))
-           ]),
-
-
-
-           body: IndexedStack(
-            children: pages,
-            index: curretIndex,
-           ),
+      bottomNavigationBar: BottomNavigationBar(items: [
+        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'),label: 'Home'),
+        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab2.png')),
+        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab3.png')),
+        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab4.png')),
+        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab5.png'))
+      ]),
+      body: IndexedStack(
+        children: pages,
+        index: curretIndex,
+      ),
     );
   }
 }
