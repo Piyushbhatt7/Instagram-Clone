@@ -9,6 +9,7 @@ class SignUp extends StatelessWidget {
 
     TextEditingController emailController = TextEditingController();
     TextEditingController passwordController = TextEditingController();
+    TextEditingController usernameController = TextEditingController();
     return Scaffold(
 
       body: Center(
