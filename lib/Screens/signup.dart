@@ -8,11 +8,13 @@ class SignUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      body: Column(
-        children: [
-
-          Helper.CustomImage(imgurl: 'instlogo.png'),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Helper.CustomImage(imgurl: 'instlogo.png'),
+          ],
+        ),
       ),
     );
   }
