@@ -28,7 +28,8 @@ class _BootomNavState extends State<BootomNav> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
-
+        
+        currentIndex: curretIndex,
         backgroundColor: Colors.black,
         type:  BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
@@ -43,7 +44,7 @@ class _BootomNavState extends State<BootomNav> {
         items: [
         BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.search),label: 'Search'),
-        BottomNavigationBarItem(icon: Icon(Icons.post_add),label: 'Post'),
+        BottomNavigationBarItem(icon: Icon(CupertinoIcons.plus_app),label: 'Post'),
         BottomNavigationBarItem(icon:Icon(CupertinoIcons.heart),label: 'Heart'),
         BottomNavigationBarItem(icon:Icon(CupertinoIcons.profile_circled),label: 'Profile'),
       ]),
