@@ -39,6 +39,7 @@ class SignUp extends StatelessWidget {
                SizedBox(height: 20,),
 
                Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Already hav an account", style: TextStyle(color: Colors.grey, fontSize: 14),),
 
