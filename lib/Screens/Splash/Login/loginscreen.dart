@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/signup.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class Loginscreen extends StatefulWidget {
@@ -77,7 +78,7 @@ class _LoginscreenState extends State<Loginscreen> {
                 Text("Don't have an account?", style:  TextStyle(fontSize: 14, color: Colors.white),),
 
                 Helper.CustomTextButtom(text: "Sign Up", callback: (){
-
+                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SignUp()));
                 })
               ],
             )
