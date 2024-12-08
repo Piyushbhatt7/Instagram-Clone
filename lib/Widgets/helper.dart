@@ -19,8 +19,8 @@ class Helper {
     //required TextInputType textinputtype
   }) {
     return Container(
-      height: 50,
-      width: 343,
+      height: 45,
+      width: 300,
       decoration: BoxDecoration(
           color: Color(0XFF121212),
           border: Border.all(color: Colors.white24),
@@ -51,7 +51,7 @@ class Helper {
       {required VoidCallback callback, required String buttonname}) {
     return SizedBox(
       height: 44,
-      width: 342,
+      width: 310,
       child: ElevatedButton(
           onPressed: () {
             callback();
