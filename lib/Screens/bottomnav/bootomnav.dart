@@ -28,7 +28,10 @@ class _BootomNavState extends State<BootomNav> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-           
+           body: IndexedStack(
+            children: pages,
+            index: curretIndex,
+           ),
     );
   }
 }
