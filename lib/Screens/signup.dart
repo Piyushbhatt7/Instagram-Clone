@@ -11,7 +11,7 @@ class SignUp extends StatelessWidget {
       body: Column(
         children: [
 
-          Helper.CustomImage(imgurl: 'instlogo.png')
+          Helper.CustomImage(imgurl: 'instlogo.png'),
         ],
       ),
     );
