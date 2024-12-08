@@ -10,6 +10,7 @@ class SignUp extends StatelessWidget {
     TextEditingController emailController = TextEditingController();
     TextEditingController passwordController = TextEditingController();
     TextEditingController usernameController = TextEditingController();
+   
     return Scaffold(
 
       body: Center(
@@ -17,6 +18,13 @@ class SignUp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Helper.CustomImage(imgurl: 'instlogo.png'),
+
+            SizedBox(height: 10,),
+
+            Helper.CustomTextField(controller: emailController, text: "Email", tohide: false),
+            SizedBox(height: 5,),
+            Helper.CustomTextField(controller: passwordController, text: "Password", tohide: true),
+            Helper.CustomTextField(controller: usernameController, text: "Username", tohide: false)
           ],
         ),
       ),
