@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/Screens/Splash/Login/loginscreen.dart';
+import 'package:instagram_clone/Screens/Login/loginscreen.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class SplashScreen extends StatefulWidget {

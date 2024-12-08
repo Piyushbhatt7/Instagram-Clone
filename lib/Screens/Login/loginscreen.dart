@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/Screens/signup.dart';
+import 'package:instagram_clone/Screens/Signup/signup.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class Loginscreen extends StatefulWidget {

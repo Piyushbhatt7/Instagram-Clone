@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/Screens/Splash/Login/loginscreen.dart';
+import 'package:instagram_clone/Screens/Login/loginscreen.dart';
 import 'package:instagram_clone/Screens/Splash/splashscreen.dart';
-import 'package:instagram_clone/Screens/signup.dart';
+import 'package:instagram_clone/Screens/Signup/signup.dart';
 
 void main() {
   runApp(const MyApp());
