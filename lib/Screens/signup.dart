@@ -41,6 +41,8 @@ class SignUp extends StatelessWidget {
                Row(
                 children: [
                   Text("Already hav an account", style: TextStyle(color: Colors.grey, fontSize: 14),),
+
+                  Helper.CustomTextButtom(text: "Sign Up", callback: (){})
                 ],
                )
           ],
