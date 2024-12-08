@@ -30,7 +30,11 @@ class _BootomNavState extends State<BootomNav> {
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
 
-        
+        onTap: (index) {
+          setState(() {
+             curretIndex = index;
+          });
+        },
 
         items: [
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'),label: 'Home'),
