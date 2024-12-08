@@ -33,7 +33,7 @@ class _BootomNavState extends State<BootomNav> {
         backgroundColor: Colors.black,
         type:  BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.grey,
+        unselectedItemColor: Colors.grey,     
 
         onTap: (index) {
           setState(() {
