@@ -50,7 +50,7 @@ class SignUp extends StatelessWidget {
                 ),
                 Helper.CustomTextButtom(text: "Sign Up", callback: () {
 
-                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Loginscreen(),));
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Loginscreen()));
                 })
               ],
             )
