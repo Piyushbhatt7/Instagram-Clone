@@ -51,7 +51,9 @@ class _LoginscreenState extends State<Loginscreen> {
             SizedBox(
               height: 10,
             ),
-            Helper.CustomButton(callback: () {}, buttonname: "Log In"),
+            Helper.CustomButton(callback: () {
+               Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> BootomNav()));
+            }, buttonname: "Log In"),
             SizedBox(
               height: 10,
             ),
@@ -62,7 +64,7 @@ class _LoginscreenState extends State<Loginscreen> {
                 Helper.CustomTextButtom(
                     text: "Log in with Facebook", callback: () {
 
-                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> BootomNav()));
+                     
                     })
               ],
             ),
