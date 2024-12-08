@@ -56,6 +56,7 @@ class SignUp extends StatelessWidget {
                               builder: (context) => Loginscreen()));
                     },
                     text: "Sign In")
+                     
               ],
             )
           ],
