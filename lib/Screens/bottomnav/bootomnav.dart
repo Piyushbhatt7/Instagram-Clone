@@ -40,8 +40,8 @@ class _BootomNavState extends State<BootomNav> {
         },
 
         items: [
-        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'),label: 'Home'),
-        BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab2.png'),label: 'Search'),
+        BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
+        BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Search'),
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab3.png'),label: 'Post'),
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab4.png'),label: 'Heart'),
         BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab5.png'),label: 'Profile'),
