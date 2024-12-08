@@ -30,7 +30,7 @@ class _BootomNavState extends State<BootomNav> {
   Widget build(BuildContext context) {
     return Scaffold(
            bottomNavigationBar: BottomNavigationBar(items: [
-            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: imgurl))
+            BottomNavigationBarItem(icon: Helper.CustomImage(imgurl: 'Tab1.png'))
            ]),
 
 
