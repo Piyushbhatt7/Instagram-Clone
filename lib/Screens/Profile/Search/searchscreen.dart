@@ -20,7 +20,15 @@ class SearchScreen extends StatelessWidget {
 
         {
 
-           "img":  ""
+           "img":  "https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?cs=srgb&dl=pexels-pixabay-36753.jpg&fm=jpg"
+        },
+
+        {
+              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTceajNiuYiTJbwvVkIXEfyO_hndxVt3s4spQ&s"
+        },
+
+        {
+            "img": ""
         }
 
 
