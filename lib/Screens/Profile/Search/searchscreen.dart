@@ -66,7 +66,92 @@ class SearchScreen extends StatelessWidget {
                           Text("IGTV", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
                         ],
                       ),
-                    )
+                    ),
+
+                    SizedBox(width: 5.0,),
+
+                     Container(
+                      height: 32,
+                      width: 75,
+                      decoration: BoxDecoration(
+                         border: Border.all(color: Colors.white12),
+                         borderRadius: BorderRadius.circular(3)
+                      ),
+
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Helper.CustomImage(imgurl: "shop.png"),
+                          SizedBox(width: 5.0,),
+                          Text("Shop", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
+                        ],
+                      ),
+                    ),
+
+                    SizedBox(width: 5.0,),
+
+
+                     Container(
+                      height: 32,
+                      width: 75,
+                      decoration: BoxDecoration(
+                         border: Border.all(color: Colors.white12),
+                         borderRadius: BorderRadius.circular(3)
+                      ),
+
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                         // Helper.CustomImage(imgurl: "tv.png"),
+                          SizedBox(width: 5.0,),
+                          Text("Style", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
+                        ],
+                      ),
+                    ),
+
+                    SizedBox(width: 5.0,),
+
+
+
+                     Container(
+                      height: 32,
+                      width: 75,
+                      decoration: BoxDecoration(
+                         border: Border.all(color: Colors.white12),
+                         borderRadius: BorderRadius.circular(3)
+                      ),
+
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                         // Helper.CustomImage(imgurl: "tv.png"),
+                          SizedBox(width: 5.0,),
+                          Text("Sports", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
+                        ],
+                      ),
+                    ),
+
+                    SizedBox(width: 5.0,),
+
+                     Container(
+                      height: 32,
+                      width: 75,
+                      decoration: BoxDecoration(
+                         border: Border.all(color: Colors.white12),
+                         borderRadius: BorderRadius.circular(3)
+                      ),
+
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                         // Helper.CustomImage(imgurl: "tv.png"),
+                          SizedBox(width: 5.0,),
+                          Text("Auto", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
+                        ],
+                      ),
+                    ),
+
+                    
                   ],
                 )
         ],
