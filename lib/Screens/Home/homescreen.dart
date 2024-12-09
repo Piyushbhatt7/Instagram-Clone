@@ -74,13 +74,16 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
            SizedBox(
-            height: 50,
+            height: 80,
              child: Padding(
-               padding: const EdgeInsets.only(left: 20.0),
+               padding: const EdgeInsets.only(left: 5.0),
                child: ListView.builder(itemBuilder: (context, index){
-                  return CircleAvatar(
-                    radius: 32,
-                    backgroundImage: NetworkImage(arrContent[index]["img"].toString()),
+                  return Padding(
+                    padding: const EdgeInsets.only(left: 5.0),
+                    child: CircleAvatar(
+                      radius: 30,
+                      backgroundImage: NetworkImage(arrContent[index]["img"].toString()),
+                    ),
                   );
                }, itemCount: arrContent.length, scrollDirection: Axis.horizontal,),
              ),
@@ -88,11 +91,11 @@ class HomeScreen extends StatelessWidget {
 
            SizedBox(height: 30,
            child: Padding(
-             padding: const EdgeInsets.only(left: 20.0),
+             padding: const EdgeInsets.only(left: 17.0),
              child: ListView.builder(itemBuilder: (context, index){
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text(arrContent[index]["name"].toString(), style: TextStyle(fontSize: 10),),
+                  child: Text(arrContent[index]["name"].toString(), style: TextStyle(fontSize: 12),),
                 );
              }, itemCount: arrContent.length, scrollDirection: Axis.horizontal,
              
