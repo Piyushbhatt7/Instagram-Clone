@@ -14,7 +14,7 @@ class SearchScreen extends StatelessWidget {
        },
 
          {
-              "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg"
+            "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg"
          },
 
 
@@ -24,7 +24,7 @@ class SearchScreen extends StatelessWidget {
         },
 
         {
-              "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTceajNiuYiTJbwvVkIXEfyO_hndxVt3s4spQ&s"
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTceajNiuYiTJbwvVkIXEfyO_hndxVt3s4spQ&s"
         },
 
         {
@@ -32,7 +32,7 @@ class SearchScreen extends StatelessWidget {
         },
 
           {
-               "img" : "https://www.uhrenworld.com/media/images/org/246085_9.jpg"
+             "img" : "https://www.uhrenworld.com/media/images/org/246085_9.jpg"
           }
     ];
 
@@ -181,7 +181,16 @@ class SearchScreen extends StatelessWidget {
 
                     
                   ],
-                )
+                ),
+
+                GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), itemBuilder: (context, index){
+
+                  return Container(
+                    height: 124,
+                    width: 124,
+                    child: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
+                  );
+                })
         ],
       )
     );
