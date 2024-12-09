@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,7 +10,21 @@ class HomeScreen extends StatelessWidget {
 
       appBar: AppBar(
         toolbarHeight: 88,
-        backgroundColor: Color(0XFF121212),
+        backgroundColor: Colors.black54,
+        leading: Helper.CustomImage(imgurl: "Camera.png"),
+        title: Helper.CustomImage(imgurl: "Instalogo.png"),
+        centerTitle: true,
+        actions: [
+          IconButton(onPressed: (){
+
+          }, icon: Helper.CustomImage(imgurl: "IGTV.png")),
+
+          IconButton(onPressed: (){
+
+          }, icon: Helper.CustomImage(imgurl: "Messanger.png"))
+
+
+        ],
       ),
       body: Column(
         children: [
