@@ -44,7 +44,7 @@ class SearchScreen extends StatelessWidget {
           },
 
           {
-              "img": "https://wallpaper.forfun.com/fetch/dd/ddadf1c6922afd11578f4fe89f35dcda.jpeg"
+              "img": "https://www.edigitalagency.com.au/wp-content/uploads/Lionel-Messi-wallpaper-photo-Argentina-Croatia-celebration-semi-final-world-cup-2022.jpg"
           },
 
           {
