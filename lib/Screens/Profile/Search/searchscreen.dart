@@ -54,7 +54,8 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white),
+                         border: Border.all(color: Colors.white54),
+                         borderRadius: BorderRadius.circular(3)
                       ),
                     )
                   ],
