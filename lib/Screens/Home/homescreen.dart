@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
               "img": "https://media.cnn.com/api/v1/images/stellar/prod/231209082454-02-cristiano-ronaldo-al-nassr-1208.jpg?c=original",
               "name": "cristiano"
          },
-
+  
          {
               "img": "https://media.istockphoto.com/id/1227336313/photo/portrait-of-teenager-using-her-laptop-at-home.jpg?s=612x612&w=0&k=20&c=IGH1Qtk0SWLkGyHylUFfjQNxFav9gmcYEj5mJ6v3wfs=",
               "name": "Mogalio",
