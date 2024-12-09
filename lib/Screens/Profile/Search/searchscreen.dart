@@ -60,7 +60,7 @@ class SearchScreen extends StatelessWidget {
 
                       child: Row(
                         children: [
-                          Helper.CustomImage(imgurl: imgurl)
+                          Helper.CustomImage(imgurl: "Icon1.png")
                         ],
                       ),
                     )
