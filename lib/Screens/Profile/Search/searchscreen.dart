@@ -18,7 +18,7 @@ class SearchScreen extends StatelessWidget {
          },
 
         {
-            "img": "https://cdn.nba.com/teams/legacy/www.nba.com/lakers/sites/lakers/files/getty-images-144763112.jpg"
+            "img": "https://www.basketballnetwork.net/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1280/MTk5NjcyODc5MjY3MTk0NDk2/kobe-bryant-1.jpg"
         },
         {
 
