@@ -54,7 +54,7 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white12),
+                         border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
@@ -74,7 +74,7 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white12),
+                         border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
@@ -95,7 +95,7 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white12),
+                         border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
@@ -117,7 +117,7 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white12),
+                         border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
@@ -137,7 +137,7 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white12),
+                         border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
