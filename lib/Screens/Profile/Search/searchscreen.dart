@@ -183,14 +183,18 @@ class SearchScreen extends StatelessWidget {
                   ],
                 ),
 
-                GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), itemBuilder: (context, index){
-
-                  return Container(
-                    height: 124,
-                    width: 124,
-                    child: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
-                  );
-                })
+                Expanded(
+                  child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), itemBuilder: (context, index){
+                  
+                    return Container(
+                      clipBehavior: Clip.antiAlias,
+                      height: 124,
+                      width: 124,
+                      child: Image.network(arrContent[index]["img"].toString(),fit: BoxFit.cover,),
+                    );
+                  }, itemCount: arrContent.length,
+                  ),
+                )
         ],
       )
     );
