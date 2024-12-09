@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
 
       appBar: AppBar(
         toolbarHeight: 88,
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.black12,
         leading: Helper.CustomImage(imgurl: "Camera.png"),
         title: Helper.CustomImage(imgurl: "Instalogo.png"),
         centerTitle: true,

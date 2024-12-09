@@ -30,7 +30,7 @@ class _BootomNavState extends State<BootomNav> {
       bottomNavigationBar: BottomNavigationBar(
         
         currentIndex: curretIndex,
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.black,
         type:  BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,     
