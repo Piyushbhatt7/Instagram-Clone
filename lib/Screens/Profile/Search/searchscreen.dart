@@ -14,7 +14,7 @@ class SearchScreen extends StatelessWidget {
               controller: searchContrller,
               decoration: InputDecoration(
                 hintText: "Search",
-                
+                hintStyle: TextStyle()
               ),
             )
         ],
