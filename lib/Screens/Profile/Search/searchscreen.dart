@@ -38,14 +38,14 @@ class SearchScreen extends StatelessWidget {
                   ),
                 ),
                 
-                SizedBox(height: 20.0,),
+                SizedBox(width: 20.0,),
                 Helper.CustomImage(imgurl: "Live.png"),
 
                
               ],
             ),
 
-            SizedBox(height: 5.0,),
+            SizedBox(width: 5.0,),
             
              Row(
                   children: [
@@ -54,13 +54,16 @@ class SearchScreen extends StatelessWidget {
                       height: 32,
                       width: 75,
                       decoration: BoxDecoration(
-                         border: Border.all(color: Colors.white54),
+                         border: Border.all(color: Colors.white12),
                          borderRadius: BorderRadius.circular(3)
                       ),
 
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Helper.CustomImage(imgurl: "Icon1.png")
+                          Helper.CustomImage(imgurl: "tv.png"),
+                          SizedBox(width: 5.0,),
+                          Text("IGTV", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
                         ],
                       ),
                     )
