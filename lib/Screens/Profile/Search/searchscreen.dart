@@ -5,10 +5,18 @@ class SearchScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    TextEditingController searchContrller = TextEditingController();
     return  Scaffold(
       body: Column(
         children: [
-           
+            TextField(
+              controller: searchContrller,
+              decoration: InputDecoration(
+                hintText: "Search",
+                
+              ),
+            )
         ],
       )
     );
