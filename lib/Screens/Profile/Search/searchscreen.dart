@@ -10,12 +10,16 @@ class SearchScreen extends StatelessWidget {
     return  Scaffold(
       body: Column(
         children: [
-            TextField(
-              controller: searchContrller,
-              decoration: InputDecoration(
-                hintText: "Search",
-                hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E9)),
-                border: InputBorder.none
+            Container(
+              height: 36,
+              width: 327,
+              child: TextField(
+                controller: searchContrller,
+                decoration: InputDecoration(
+                  hintText: "Search",
+                  hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E9)),
+                  border: InputBorder.none
+                ),
               ),
             )
         ],
