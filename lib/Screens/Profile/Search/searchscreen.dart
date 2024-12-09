@@ -19,7 +19,7 @@ class SearchScreen extends StatelessWidget {
                 SizedBox(width: 10,),
                 Container(
                   height: 36,
-                  width: 327,
+                  width: 340,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Color(0xFF262626)
@@ -31,7 +31,7 @@ class SearchScreen extends StatelessWidget {
                       decoration: InputDecoration(
                         hintText: "Search",
                        prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
-                        hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E93)),
+                        hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E93),fontWeight: FontWeight.normal),
                         border: InputBorder.none
                       ),
                     ),
