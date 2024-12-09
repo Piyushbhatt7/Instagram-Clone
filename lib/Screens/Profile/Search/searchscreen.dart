@@ -181,8 +181,6 @@ class SearchScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-             
-                    
                   ],
                 ),
                 //SizedBox(height: 10,),
