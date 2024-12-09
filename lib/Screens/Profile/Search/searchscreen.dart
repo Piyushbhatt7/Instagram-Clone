@@ -28,10 +28,12 @@ class SearchScreen extends StatelessWidget {
         },
 
         {
-            "img": ""
-        }
+            "img": "https://airinsight.com/wp-content/uploads/2023/07/2023-07-18-11.05.17.jpeg"
+        },
 
-
+          {
+               "img" : "https://www.uhrenworld.com/media/images/org/246085_9.jpg"
+          }
     ];
 
     TextEditingController searchContrller = TextEditingController();
