@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
@@ -29,7 +30,7 @@ class SearchScreen extends StatelessWidget {
                       controller: searchContrller,
                       decoration: InputDecoration(
                         hintText: "Search",
-                       
+                       prefixIcon: Helper.CustomImage(imgurl: 'Search.png'),
                         hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E93)),
                         border: InputBorder.none
                       ),
