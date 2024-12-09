@@ -44,7 +44,7 @@ class SearchScreen extends StatelessWidget {
           },
 
           {
-              "img": "https://www.edigitalagency.com.au/wp-content/uploads/Lionel-Messi-wallpaper-photo-Argentina-Croatia-celebration-semi-final-world-cup-2022.jpg"
+              "img": "https://c4.wallpaperflare.com/wallpaper/1001/743/752/argentina-fifa-world-cup-lionel-messi-hd-wallpaper-preview.jpg"
           },
 
           {
