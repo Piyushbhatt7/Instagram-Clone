@@ -17,7 +17,9 @@ class SearchScreen extends StatelessWidget {
             "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg"
          },
 
-
+        {
+            "img": "https://cdn.nba.com/teams/legacy/www.nba.com/lakers/sites/lakers/files/getty-images-144763112.jpg"
+        },
         {
 
            "img":  "https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?cs=srgb&dl=pexels-pixabay-36753.jpg&fm=jpg"
@@ -44,7 +46,7 @@ class SearchScreen extends StatelessWidget {
           },
 
           {
-              "img": "hhttps://images3.alphacoders.com/771/771162.jpg"
+              "img": "https://st4.depositphotos.com/21607914/23443/i/450/depositphotos_234433866-stock-photo-lionel-messi-argentina-jogs-group.jpg"
           },
 
           {
