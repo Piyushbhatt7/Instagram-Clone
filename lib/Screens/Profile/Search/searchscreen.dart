@@ -44,6 +44,10 @@ class SearchScreen extends StatelessWidget {
           },
 
           {
+              "img": "https://wallpaper.forfun.com/fetch/dd/ddadf1c6922afd11578f4fe89f35dcda.jpeg"
+          },
+
+          {
             "img": "https://images.squarespace-cdn.com/content/v1/580e5c7237c581e306e356b4/1651606345058-2BYQMFCIRRV39NYNQQJU/Gulfstream+%7C+G800+%7C+Flying+%7C+Sky.jpg?format=500w"
         },
 
