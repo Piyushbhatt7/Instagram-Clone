@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
 
          { 
             "img": "https://www.basketballnetwork.net/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1280/MTk5NjcyODc5MjY3MTk0NDk2/kobe-bryant-1.jpg",
-            "name": "kobeBryant"
+            "name": "kobe"
          },
 
          {
@@ -26,12 +26,12 @@ class HomeScreen extends StatelessWidget {
 
          {
               "img": "https://images.bauerhosting.com/legacy/media/5d96/4115/c11f/b277/1531/ec33/free-guy-crop.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
-              "name": "ryanDhn"
+              "name": "ryan"
          },
 
          {
                "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg",
-               "name": "Emma"
+               "name": "emma"
          },
 
          {
@@ -41,12 +41,12 @@ class HomeScreen extends StatelessWidget {
   
          {
               "img": "https://media.istockphoto.com/id/1227336313/photo/portrait-of-teenager-using-her-laptop-at-home.jpg?s=612x612&w=0&k=20&c=IGH1Qtk0SWLkGyHylUFfjQNxFav9gmcYEj5mJ6v3wfs=",
-              "name": "Mogalio",
+              "name": "Monali",
          },
 
          {
                "img": "https://petapixel.com/assets/uploads/2022/01/VAI_01-22_People_Panther_JPG_white_hor_046-800x460.jpg",
-               "name": "samaltman"
+               "name": "samalt"
          }
 
 
