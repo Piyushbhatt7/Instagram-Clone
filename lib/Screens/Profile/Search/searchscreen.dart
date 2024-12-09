@@ -95,7 +95,7 @@ class SearchScreen extends StatelessWidget {
               ],
             ),
       
-            SizedBox(height: 5.0,),
+            SizedBox(height: 20.0,),
             
              Row(
                          //  mainAxisAlignment: MainAxisAlignment.start,
@@ -209,8 +209,8 @@ class SearchScreen extends StatelessWidget {
                   
                     return Container(
                       clipBehavior: Clip.antiAlias,
-                      height: 100,
-                      width: 100,
+                      height: 124,
+                      width: 124,
                       decoration: BoxDecoration(),
                       child: Image.network(arrContent[index]["img"].toString(),fit: BoxFit.cover,),
                     );
