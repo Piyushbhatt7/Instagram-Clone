@@ -9,8 +9,22 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     var arrContent = [
-      
-    ]
+       {
+          "img": " https://s.ndtvimg.com/images/content/2014/aug/806/cristiano-ronaldo-real-madrid-super-cup.jpg"
+       },
+
+         {
+              "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg"
+         },
+
+
+        {
+
+           "img":  ""
+        }
+
+
+    ];
 
     TextEditingController searchContrller = TextEditingController();
     return  Scaffold(
