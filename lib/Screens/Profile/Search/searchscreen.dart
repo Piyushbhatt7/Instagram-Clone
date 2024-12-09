@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -28,6 +29,7 @@ class SearchScreen extends StatelessWidget {
                       controller: searchContrller,
                       decoration: InputDecoration(
                         hintText: "Search",
+                       
                         hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E93)),
                         border: InputBorder.none
                       ),
