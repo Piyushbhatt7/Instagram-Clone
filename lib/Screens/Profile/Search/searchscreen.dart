@@ -8,6 +8,10 @@ class SearchScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    var arrContent = [
+      
+    ]
+
     TextEditingController searchContrller = TextEditingController();
     return  Scaffold(
       body: Column(
@@ -135,7 +139,7 @@ class SearchScreen extends StatelessWidget {
 
                      Container(
                       height: 32,
-                      width: 75,
+                      width: 53,
                       decoration: BoxDecoration(
                          border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
