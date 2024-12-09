@@ -9,15 +9,20 @@ class SearchScreen extends StatelessWidget {
     TextEditingController searchContrller = TextEditingController();
     return  Scaffold(
       body: Column(
+
         children: [
             Container(
               height: 36,
               width: 327,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Color(0xFF262626)
+              ),
               child: TextField(
                 controller: searchContrller,
                 decoration: InputDecoration(
                   hintText: "Search",
-                  hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E9)),
+                  hintStyle: TextStyle(fontSize: 16, color: Color(0XFF8E8E93)),
                   border: InputBorder.none
                 ),
               ),
