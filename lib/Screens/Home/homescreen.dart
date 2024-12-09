@@ -6,6 +6,13 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+   var  arrContent = [
+         
+         {
+           "img" : ""
+         }
+    ];
     return Scaffold(
 
       appBar: AppBar(
@@ -28,7 +35,14 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
+           Row(
+            children: [
+              CircleAvatar(
+                radius: 30,
 
+              )
+            ],
+           )
         ],
       )
     );
