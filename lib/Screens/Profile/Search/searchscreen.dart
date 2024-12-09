@@ -8,7 +8,7 @@ class SearchScreen extends StatelessWidget {
     return  Scaffold(
       body: Column(
         children: [
-          
+           
         ],
       )
     );
