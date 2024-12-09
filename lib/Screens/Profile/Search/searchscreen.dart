@@ -9,6 +9,7 @@ class SearchScreen extends StatelessWidget {
     TextEditingController searchContrller = TextEditingController();
     return  Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(height: 50,),
             Container(
