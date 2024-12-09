@@ -57,6 +57,12 @@ class SearchScreen extends StatelessWidget {
                          border: Border.all(color: Colors.white54),
                          borderRadius: BorderRadius.circular(3)
                       ),
+
+                      child: Row(
+                        children: [
+                          Helper.CustomImage(imgurl: imgurl)
+                        ],
+                      ),
                     )
                   ],
                 )
