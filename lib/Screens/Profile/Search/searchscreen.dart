@@ -39,7 +39,16 @@ class SearchScreen extends StatelessWidget {
                 ),
                 
                 SizedBox(height: 20.0,),
-                Helper.CustomImage(imgurl: "Live.png")
+                Helper.CustomImage(imgurl: "Live.png"),
+
+                Row(
+                  children: [
+                    Container(
+                      height: 32,
+                      width: 75,
+                    )
+                  ],
+                )
               ],
             )
         ],
