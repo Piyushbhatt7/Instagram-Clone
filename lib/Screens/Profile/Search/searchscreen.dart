@@ -190,7 +190,7 @@ class SearchScreen extends StatelessWidget {
                     return Container(
                       clipBehavior: Clip.antiAlias,
                       height: 100,
-                      width: 124,
+                      width: 100,
                       decoration: BoxDecoration(),
                       child: Image.network(arrContent[index]["img"].toString(),fit: BoxFit.cover,),
                     );
