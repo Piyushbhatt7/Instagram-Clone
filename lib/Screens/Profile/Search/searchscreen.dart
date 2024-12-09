@@ -37,6 +37,8 @@ class SearchScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+
+                Helper.CustomImage(imgurl: "Live.png")
               ],
             )
         ],
