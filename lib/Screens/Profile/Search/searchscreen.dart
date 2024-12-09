@@ -24,16 +24,28 @@ class SearchScreen extends StatelessWidget {
         },
 
         {
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTceajNiuYiTJbwvVkIXEfyO_hndxVt3s4spQ&s"
+            "img": "https://images.pexels.com/photos/10292237/pexels-photo-10292237.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         },
 
         {
-            "img": "https://airinsight.com/wp-content/uploads/2023/07/2023-07-18-11.05.17.jpeg"
+              "img": "https://free-3dtextureshd.com/wp-content/uploads/2024/04/138.jpg.webp"
+        },
+
+        {
+              "img": "https://i.redd.it/22q79xqyj8wa1.jpg"
+        },
+
+        {
+               "img": "https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?cs=srgb&dl=pexels-pixabay-207529.jpg&fm=jpg"
         },
 
           {
-             "img" : "https://www.uhrenworld.com/media/images/org/246085_9.jpg"
-          }
+             "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ILuUMkbkqjhcN01ZCJIA4KKxDksX-H9jaw&s"
+          },
+
+          {
+            "img": "https://images.squarespace-cdn.com/content/v1/580e5c7237c581e306e356b4/1651606345058-2BYQMFCIRRV39NYNQQJU/Gulfstream+%7C+G800+%7C+Flying+%7C+Sky.jpg?format=500w"
+        },
     ];
 
     TextEditingController searchContrller = TextEditingController();
@@ -99,25 +111,23 @@ class SearchScreen extends StatelessWidget {
              
                     SizedBox(width: 5.0,),
              
-                     Expanded(
-                       child: Container(
-                        height: 32,
-                        width: 75,
-                        decoration: BoxDecoration(
-                           border: Border.all(color: Colors.white10),
-                           borderRadius: BorderRadius.circular(3)
-                        ),
-                                    
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Helper.CustomImage(imgurl: "shop.png"),
-                            SizedBox(width: 5.0,),
-                            Text("Shop", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
-                          ],
-                        ),
-                                           ),
-                     ),
+                     Container(
+                      height: 32,
+                      width: 60,
+                      decoration: BoxDecoration(
+                         border: Border.all(color: Colors.white10),
+                         borderRadius: BorderRadius.circular(3)
+                      ),
+                                  
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Helper.CustomImage(imgurl: "shop.png"),
+                          SizedBox(width: 5.0,),
+                          Text("Shop", style: TextStyle(fontSize: 14, color: Color(0XFFF9F9F9)),)
+                        ],
+                      ),
+                                         ),
              
                     SizedBox(width: 5.0,),
              
