@@ -9,6 +9,8 @@ class MessageScreen extends StatelessWidget {
     return Scaffold(
         
         appBar: AppBar(
+
+          toolbarHeight: 88,
           leading: IconButton(onPressed: (){
 
           }, icon: Icon(CupertinoIcons.back)),
@@ -18,7 +20,25 @@ class MessageScreen extends StatelessWidget {
           actions: [
             IconButton(onPressed: (){
 
-            }, icon: Icon(Icons.add))
+            }, icon: Icon(Icons.add,color: Colors.white, size: 25,))
+          ],
+        ),
+
+        body: Column(
+
+          children: [
+            Container(
+              height: 36,
+              width: 347,
+              decoration: BoxDecoration(
+                color: Color(0XFF262626),
+                borderRadius: BorderRadius.circular(10)
+              ),
+
+              child: TextField(
+                controller: ,
+              ),
+            )
           ],
         ),
     );
