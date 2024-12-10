@@ -156,9 +156,14 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
 
+          SizedBox(height: 3,),
+
           Row(
             children: [
-              Text("josuha_ima", style: TextStyle(fontSize: 13, ),)
+              SizedBox(width: 15,),
+              Text("josuha_ima", style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: Color(0XFF9F9F9F9)),),
+              SizedBox(width: 5,),
+              Text("The Tokyo city in Japan was amazing", style: TextStyle(fontSize: 13, color: Color(0XFFF9F9F9)),)
             ],
           )
 
