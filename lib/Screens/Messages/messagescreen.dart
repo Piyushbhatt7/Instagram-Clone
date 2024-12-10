@@ -24,7 +24,11 @@ class MessageScreen extends StatelessWidget {
 
                    {
                            "img": "pic3",
-                           "name": ""
+                           "name": "martini_rond"
+                   },
+
+                   {
+                           "img": "pic4"
                    }
   ];
   //const MessageScreen({super.key});
