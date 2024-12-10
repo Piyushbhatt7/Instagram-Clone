@@ -121,7 +121,7 @@ class HomeScreen extends StatelessWidget {
 
           Container(
             clipBehavior: Clip.antiAlias,
-            height: 360,
+            height: 340,
             width: double.infinity,
             decoration: BoxDecoration(
               
