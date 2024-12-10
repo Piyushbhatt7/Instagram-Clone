@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Messages/messagescreen.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -60,7 +61,9 @@ class HomeScreen extends StatelessWidget {
             IconButton(
                 onPressed: () {}, icon: Helper.CustomImage(imgurl: "IGTV.png")),
             IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> MessageScreen()));
+                },
                 icon: Helper.CustomImage(imgurl: "Messanger.png"))
           ],
         ),
