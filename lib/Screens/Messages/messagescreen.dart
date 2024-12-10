@@ -132,10 +132,10 @@ class MessageScreen extends StatelessWidget {
           children: [
             Row(
               children: [
-                SizedBox(width: 20,),
+                SizedBox(width: 15,),
                 Container(
                   height: 40,
-                  width: 350,
+                  width: 310,
                   decoration: BoxDecoration(
                     color: Color(0XFF262626),
                     borderRadius: BorderRadius.circular(10)
@@ -157,6 +157,8 @@ class MessageScreen extends StatelessWidget {
               ],
             ),
 
+            SizedBox(height: 10,),
+
              Expanded(
                child: ListView.builder(itemBuilder: (context, index){
                   return ListTile(
@@ -164,7 +166,7 @@ class MessageScreen extends StatelessWidget {
                         radius: 25,
                          backgroundImage: AssetImage("assets/images/${arrContent[index]["img"].toString()}"),
                       ),
-                       title: Text(arrContent[index]["name"].toString(),style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),),
+                       title: Text(arrContent[index]["name"].toString(),style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),),
                        subtitle: Text(arrContent[index]["lastmsg"].toString(),style: TextStyle(fontSize: 13, color: Colors.grey),),
                        trailing: Icon(CupertinoIcons.camera),
                
@@ -181,12 +183,19 @@ class MessageScreen extends StatelessWidget {
           width: double.infinity,
           child: ElevatedButton(onPressed: (){
 
-          }, child: Row(
+          }, style: ElevatedButton.styleFrom(backgroundColor: Color(0xff121212),),
+        
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
+               Helper.CustomImage(imgurl: "cam.png"),
+               SizedBox(width: 5,),
+               Text("Camera", style: TextStyle(fontSize: 13, color: Color(0XFF3897F0)),)
             ],
           ))
         ),
+
+        floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
     );
   }
 }
