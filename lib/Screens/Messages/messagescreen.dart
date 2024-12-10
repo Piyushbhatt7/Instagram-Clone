@@ -6,6 +6,8 @@ class MessageScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    TextEditingController searchController = TextEditingController();
     return Scaffold(
         
         appBar: AppBar(
@@ -36,7 +38,7 @@ class MessageScreen extends StatelessWidget {
               ),
 
               child: TextField(
-                controller: ,
+                controller: searchController,
               ),
             )
           ],
