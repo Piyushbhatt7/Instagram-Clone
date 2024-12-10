@@ -14,6 +14,12 @@ class MessageScreen extends StatelessWidget {
           }, icon: Icon(CupertinoIcons.back)),
           title: Text("piyushbhatt",style: TextStyle(fontSize: 16, color: Color(0XFF9F9F9F9),fontWeight: FontWeight.bold),),
           centerTitle: true,
+
+          actions: [
+            IconButton(onPressed: (){
+
+            }, icon: Icon(Icons.add))
+          ],
         ),
     );
   }
