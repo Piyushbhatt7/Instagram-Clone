@@ -115,7 +115,18 @@ class HomeScreen extends StatelessWidget {
               subtitle: Text("Tokyo, Japan", style: TextStyle(fontSize: 11, color: Color(0XFFf9f9f9)),),
               trailing: Icon(CupertinoIcons.ellipsis),
             ),
-           )
+           ),
+
+          Container(
+            clipBehavior: Clip.antiAlias,
+            height: 375,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              
+            ),
+
+            child: Helper.CustomImage(imgurl: "Rectangle.png", ),
+          )
 
         ],
       )
