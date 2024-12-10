@@ -4,8 +4,12 @@ import 'package:instagram_clone/Widgets/helper.dart';
 
 class MessageScreen extends StatelessWidget {
 
+  TextEditingController searchController = TextEditingController();
+  
   var arrContent = [
-
+    {
+                        "img": "Oval.png"
+                   }
   ];
   //const MessageScreen({super.key});
 
