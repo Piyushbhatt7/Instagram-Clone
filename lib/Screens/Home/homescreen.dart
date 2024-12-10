@@ -130,7 +130,12 @@ class HomeScreen extends StatelessWidget {
             child: Image.asset("assets/images/Rectangle.png",fit: BoxFit.cover,),
           ),
 
-          
+          Row(
+            children: [
+              Helper.CustomImage(imgurl: "Like.png"),
+              Helper.CustomImage(imgurl: "Comment.png")
+            ],
+          )
 
         ],
       )
