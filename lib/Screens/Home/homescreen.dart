@@ -117,6 +117,8 @@ class HomeScreen extends StatelessWidget {
             ),
            ),
 
+           SizedBox(height: 5.0,),
+
           Container(
             clipBehavior: Clip.antiAlias,
             height: 360,
@@ -126,7 +128,7 @@ class HomeScreen extends StatelessWidget {
             ),
 
             child: Image.asset("assets/images/Rectangle.png",fit: BoxFit.cover,),
-          )
+          ),
 
         ],
       )
