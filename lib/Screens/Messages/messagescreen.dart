@@ -35,7 +35,7 @@ class MessageScreen extends StatelessWidget {
                 SizedBox(width: 20,),
                 Container(
                   height: 40,
-                  width: 347,
+                  width: 350,
                   decoration: BoxDecoration(
                     color: Color(0XFF262626),
                     borderRadius: BorderRadius.circular(10)
