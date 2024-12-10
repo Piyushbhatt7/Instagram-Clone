@@ -103,7 +103,15 @@ class HomeScreen extends StatelessWidget {
            ),
            ),
 
-           SizedBox()
+           Container(
+            height: 54,
+            width: 375,
+            color: Colors.black12,
+
+            child: ListTile(
+              
+            ),
+           )
 
         ],
       )
