@@ -130,6 +130,8 @@ class HomeScreen extends StatelessWidget {
             child: Image.asset("assets/images/Rectangle.png",fit: BoxFit.cover,),
           ),
 
+          
+
         ],
       )
     );
