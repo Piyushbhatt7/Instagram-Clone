@@ -109,15 +109,20 @@ class MessageScreen extends StatelessWidget {
               ],
             ),
 
-             ListView.builder(itemBuilder: (context, index){
-                return ListTile(
-                    leading: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
-                     title: Text(arrContent[index]["name"].toString()),
-                     subtitle: Text(arrContent[index]["lastmsg"].toString()),
-
-                );
-             }, itemCount: arrContent.length,
-             
+             Expanded(
+               child: ListView.builder(itemBuilder: (context, index){
+                  return ListTile(
+                      leading: CircleAvatar(
+                        radius: 25,
+                        backgroundImage: AssetImage(arrContent[index]["img"].toString()),
+                      ),
+                       title: Text(arrContent[index]["name"].toString()),
+                       subtitle: Text(arrContent[index]["lastmsg"].toString()),
+               
+                  );
+               }, itemCount: arrContent.length,
+               
+               ),
              )
           ],
         ),
