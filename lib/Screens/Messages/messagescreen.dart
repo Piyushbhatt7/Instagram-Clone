@@ -18,7 +18,7 @@ class MessageScreen extends StatelessWidget {
                    },
 
                    {
-                          "img": "pic2",
+                          "img": "pic2.png",
                           "name": "andreww_"
                    },
 
@@ -33,7 +33,12 @@ class MessageScreen extends StatelessWidget {
                    },
 
                    {
-                            "img": "pic5"
+                            "img": "pic5",
+                            "name": "jannie.franco"
+                   },
+
+                   {
+                            "img": "m_humphrey",
                             "name": ""
                    }
   ];
