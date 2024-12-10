@@ -30,26 +30,31 @@ class MessageScreen extends StatelessWidget {
         body: Column(
 
           children: [
-            Container(
-              height: 40,
-              width: 347,
-              decoration: BoxDecoration(
-                color: Color(0XFF262626),
-                borderRadius: BorderRadius.circular(10)
-              ),
-
-              child: Padding(
-                padding: const EdgeInsets.only(bottom: 4.0),
-                child: TextField(
-                  controller: searchController,
-                  decoration: InputDecoration(
-                    hintText: "Search",
-                    hintStyle: TextStyle(fontWeight: FontWeight.normal, color: Color(0XFF8E8E93)),
-                    prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
-                    border: InputBorder.none
+            Row(
+              children: [
+                SizedBox(width: 20,),
+                Container(
+                  height: 40,
+                  width: 347,
+                  decoration: BoxDecoration(
+                    color: Color(0XFF262626),
+                    borderRadius: BorderRadius.circular(10)
+                  ),
+                
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 4.0),
+                    child: TextField(
+                      controller: searchController,
+                      decoration: InputDecoration(
+                        hintText: "Search",
+                        hintStyle: TextStyle(fontWeight: FontWeight.normal, color: Color(0XFF8E8E93)),
+                        prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
+                        border: InputBorder.none
+                      ),
+                    ),
                   ),
                 ),
-              ),
+              ],
             )
           ],
         ),
