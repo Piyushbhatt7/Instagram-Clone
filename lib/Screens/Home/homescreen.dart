@@ -100,7 +100,10 @@ class HomeScreen extends StatelessWidget {
              }, itemCount: arrContent.length, scrollDirection: Axis.horizontal,
              
              ),
-           )),
+           ),
+           ),
+
+           SizedBox()
 
         ],
       )
