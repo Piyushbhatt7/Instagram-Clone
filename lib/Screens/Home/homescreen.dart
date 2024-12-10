@@ -75,12 +75,12 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
            SizedBox(
-            height: 80,
+            height: 50,
              child: Padding(
-               padding: const EdgeInsets.only(left: 20.0),
+               padding: const EdgeInsets.only(left: 10.0),
                child: ListView.builder(itemBuilder: (context, index){
                   return Padding(
-                    padding: const EdgeInsets.only(left: 5.0),
+                    padding: const EdgeInsets.only(right: 5.0),
                     child: CircleAvatar(
                       radius: 30,
                       backgroundImage: NetworkImage(arrContent[index]["img"].toString()),
@@ -90,9 +90,9 @@ class HomeScreen extends StatelessWidget {
              ),
            ),
 
-           SizedBox(height: 35,
+           SizedBox(height: 30,
            child: Padding(
-             padding: const EdgeInsets.only(left: 20.0),
+             padding: const EdgeInsets.only(left: 8.0),
              child: ListView.builder(itemBuilder: (context, index){
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -117,11 +117,11 @@ class HomeScreen extends StatelessWidget {
             ),
            ),
 
-           SizedBox(height: 5.0,),
+           SizedBox(height: 8.0,),
 
           Container(
             clipBehavior: Clip.antiAlias,
-            height: 340,
+            height: 280,
             width: double.infinity,
             decoration: BoxDecoration(
               
