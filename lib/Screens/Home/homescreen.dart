@@ -125,7 +125,7 @@ class HomeScreen extends StatelessWidget {
               
             ),
 
-            child: Helper.CustomImage(imgurl: "Rectangle.png", ),
+            child: Image.asset("assets/images/Rectangle.png",fit: BoxFit.cover,),
           )
 
         ],
