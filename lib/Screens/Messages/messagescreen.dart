@@ -179,9 +179,13 @@ class MessageScreen extends StatelessWidget {
         floatingActionButton: SizedBox(
           height: 55,
           width: double.infinity,
-          child: Helper.CustomButton(callback: (){
+          child: ElevatedButton(onPressed: (){
 
-          }, buttonname: "Camera"),
+          }, child: Row(
+            children: [
+              
+            ],
+          ))
         ),
     );
   }
