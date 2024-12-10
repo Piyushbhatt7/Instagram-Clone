@@ -114,7 +114,7 @@ class MessageScreen extends StatelessWidget {
                   return ListTile(
                       leading: CircleAvatar(
                         radius: 25,
-                        backgroundImage: AssetImage(arrContent[index]["img"].toString()),
+                         backgroundImage: AssetImage("assets/images/${arrContent[index]["img"].toString()}"),
                       ),
                        title: Text(arrContent[index]["name"].toString()),
                        subtitle: Text(arrContent[index]["lastmsg"].toString()),
