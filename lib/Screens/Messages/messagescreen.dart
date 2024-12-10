@@ -118,6 +118,7 @@ class MessageScreen extends StatelessWidget {
                       ),
                        title: Text(arrContent[index]["name"].toString()),
                        subtitle: Text(arrContent[index]["lastmsg"].toString()),
+                       trailing: Icon(CupertinoIcons.camera),
                
                   );
                }, itemCount: arrContent.length,
