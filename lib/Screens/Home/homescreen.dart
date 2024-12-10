@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
@@ -111,7 +112,8 @@ class HomeScreen extends StatelessWidget {
             child: ListTile(
               leading: Helper.CustomImage(imgurl: "Oval.png"),
               title: Text("josuha_ima", style: TextStyle(color: Color(0XFFF9F9F9),fontSize: 13),),
-              subtitle: Text("Tokyo, Japan", style: TextStyle(fontSize: 11),),
+              subtitle: Text("Tokyo, Japan", style: TextStyle(fontSize: 11, color: Color(0XFFf9f9f9)),),
+              trailing: Icon(CupertinoIcons.ellipsis),
             ),
            )
 
