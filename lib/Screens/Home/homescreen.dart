@@ -130,17 +130,17 @@ class HomeScreen extends StatelessWidget {
             child: Image.asset("assets/images/Rectangle.png",fit: BoxFit.cover,),
           ),
 
-          SizedBox(height: 20,),
+          SizedBox(height: 17,),
 
           Row(
             children: [
-              SizedBox(width: 15,),
+              SizedBox(width: 12,),
               Helper.CustomImage(imgurl: "Like.png"),
               SizedBox(width: 20,),
               Helper.CustomImage(imgurl: "Comment.png"),
               SizedBox(width: 20,),
               Helper.CustomImage(imgurl: "Messanger.png"),
-              SizedBox(width: 175,),
+              SizedBox(width: 178,),
               Helper.CustomImage(imgurl: "Save.png")
             ],
           ),
