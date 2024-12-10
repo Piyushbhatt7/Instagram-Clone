@@ -38,13 +38,16 @@ class MessageScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10)
               ),
 
-              child: TextField(
-                controller: searchController,
-                decoration: InputDecoration(
-                  hintText: "Serch",
-                  hintStyle: TextStyle(fontWeight: FontWeight.normal),
-                  prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
-                  border: InputBorder.none
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 4.0),
+                child: TextField(
+                  controller: searchController,
+                  decoration: InputDecoration(
+                    hintText: "Search",
+                    hintStyle: TextStyle(fontWeight: FontWeight.normal, color: Color(0XFF8E8E93)),
+                    prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
+                    border: InputBorder.none
+                  ),
                 ),
               ),
             )
