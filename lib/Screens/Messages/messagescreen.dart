@@ -8,7 +8,17 @@ class MessageScreen extends StatelessWidget {
   
   var arrContent = [
     {
-                        "img": "Oval.png"
+                        "img": "pi.png",
+                        "name": "josuha_ima"
+                   },
+
+                   {
+                         "img": "pic1.png",
+                         "name": "karenne"
+                   },
+
+                   {
+                          "img"
                    }
   ];
   //const MessageScreen({super.key});
