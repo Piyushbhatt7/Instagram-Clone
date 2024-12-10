@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
          
          {
            "img" : "https://st4.depositphotos.com/21607914/23443/i/450/depositphotos_234433866-stock-photo-lionel-messi-argentina-jogs-group.jpg",
-           "name": "messi"
+           "name": "Your Strory"
          },
 
          { 
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
            SizedBox(
             height: 80,
              child: Padding(
-               padding: const EdgeInsets.only(left: 5.0),
+               padding: const EdgeInsets.only(left: 20.0),
                child: ListView.builder(itemBuilder: (context, index){
                   return Padding(
                     padding: const EdgeInsets.only(left: 5.0),
@@ -91,7 +91,7 @@ class HomeScreen extends StatelessWidget {
 
            SizedBox(height: 30,
            child: Padding(
-             padding: const EdgeInsets.only(left: 17.0),
+             padding: const EdgeInsets.only(left: 20.0),
              child: ListView.builder(itemBuilder: (context, index){
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
