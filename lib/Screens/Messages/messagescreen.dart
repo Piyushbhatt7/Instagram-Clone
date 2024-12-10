@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class MessageScreen extends StatelessWidget {
   const MessageScreen({super.key});
@@ -30,7 +31,7 @@ class MessageScreen extends StatelessWidget {
 
           children: [
             Container(
-              height: 36,
+              height: 40,
               width: 347,
               decoration: BoxDecoration(
                 color: Color(0XFF262626),
@@ -39,6 +40,12 @@ class MessageScreen extends StatelessWidget {
 
               child: TextField(
                 controller: searchController,
+                decoration: InputDecoration(
+                  hintText: "Serch",
+                  hintStyle: TextStyle(fontWeight: FontWeight.normal),
+                  prefixIcon: Helper.CustomImage(imgurl: "search-icon.png"),
+                  border: InputBorder.none
+                ),
               ),
             )
           ],
