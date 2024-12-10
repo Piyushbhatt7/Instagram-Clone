@@ -140,14 +140,25 @@ class HomeScreen extends StatelessWidget {
               Helper.CustomImage(imgurl: "Comment.png"),
               SizedBox(width: 20,),
               Helper.CustomImage(imgurl: "Messanger.png"),
-              SizedBox(width: 178,),
+              SizedBox(width: 180,),
               Helper.CustomImage(imgurl: "Save.png")
+            ],
+          ),
+
+          SizedBox(height: 10,),
+
+          Row(
+            children: [
+              SizedBox(width: 12,),
+              Helper.CustomImage(imgurl: "Oval1.png"),
+              SizedBox(width: 5.0,),
+              Text("Liked by craige_02 and 44,868 others", style: TextStyle(fontSize: 13, color: Color(0XFFF9F9F9)),),
             ],
           ),
 
           Row(
             children: [
-              Helper.CustomImage(imgurl: "Oval.pg"),
+              Text("josuha_ima", style: TextStyle(fontSize: 13, ),)
             ],
           )
 
