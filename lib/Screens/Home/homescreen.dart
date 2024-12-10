@@ -145,6 +145,12 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
 
+          Row(
+            children: [
+              Helper.CustomImage(imgurl: "Oval.pg"),
+            ],
+          )
+
         ],
       )
     );
