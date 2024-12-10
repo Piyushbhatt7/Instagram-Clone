@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
 
             child: ListTile(
               leading: Helper.CustomImage(imgurl: "Oval.png"),
-              t
+              title: Text("josuha_ima", style: TextStyle(color: Color(0XFFF9F9F9),fontSize: 13),),
             ),
            )
 
