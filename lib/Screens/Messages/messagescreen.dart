@@ -175,6 +175,10 @@ class MessageScreen extends StatelessWidget {
              )
           ],
         ),
+
+        floatingActionButton: SizedBox(
+          height: 79,
+        ),
     );
   }
 }
