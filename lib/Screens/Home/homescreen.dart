@@ -106,7 +106,7 @@ class HomeScreen extends StatelessWidget {
 
            Container(
             height: 54,
-            width: 375,
+            width: double.infinity,
             color: Colors.black12,
 
             child: ListTile(
@@ -119,7 +119,7 @@ class HomeScreen extends StatelessWidget {
 
           Container(
             clipBehavior: Clip.antiAlias,
-            height: 375,
+            height: 360,
             width: double.infinity,
             decoration: BoxDecoration(
               
