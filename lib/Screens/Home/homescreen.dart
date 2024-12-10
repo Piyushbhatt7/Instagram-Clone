@@ -10,28 +10,28 @@ class HomeScreen extends StatelessWidget {
    var  arrContent = [
          
          {
-           "img" : "https://st4.depositphotos.com/21607914/23443/i/450/depositphotos_234433866-stock-photo-lionel-messi-argentina-jogs-group.jpg",
+           "img" : "https://ugc.production.linktr.ee/4e1691b1-483b-4a81-8a40-631768317055_inbound3426524437699628265.jpeg?io=true&size=avatar-v3_0",
            "name": "Your Strory"
          },
 
          { 
             "img": "https://www.basketballnetwork.net/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1280/MTk5NjcyODc5MjY3MTk0NDk2/kobe-bryant-1.jpg",
-            "name": "kobe"
+            "name": "kobeBry"
          },
 
          {
              "img": "https://letsenhance.io/static/03620c83508fc72c6d2b218c7e304ba5/11499/UpscalerAfter.jpg",
-             "name": "lisa"
+             "name": "lisaMonb"
          },
 
          {
               "img": "https://images.bauerhosting.com/legacy/media/5d96/4115/c11f/b277/1531/ec33/free-guy-crop.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
-              "name": "ryan"
+              "name": "ryanRond"
          },
 
          {
                "img": "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg",
-               "name": "emma"
+               "name": "emmawats"
          },
 
          {
@@ -41,12 +41,12 @@ class HomeScreen extends StatelessWidget {
   
          {
               "img": "https://media.istockphoto.com/id/1227336313/photo/portrait-of-teenager-using-her-laptop-at-home.jpg?s=612x612&w=0&k=20&c=IGH1Qtk0SWLkGyHylUFfjQNxFav9gmcYEj5mJ6v3wfs=",
-              "name": "Monali",
+              "name": "Monalis",
          },
 
          {
                "img": "https://petapixel.com/assets/uploads/2022/01/VAI_01-22_People_Panther_JPG_white_hor_046-800x460.jpg",
-               "name": "samalt"
+               "name": "samaltma"
          }
 
 
@@ -89,13 +89,13 @@ class HomeScreen extends StatelessWidget {
              ),
            ),
 
-           SizedBox(height: 30,
+           SizedBox(height: 35,
            child: Padding(
              padding: const EdgeInsets.only(left: 20.0),
              child: ListView.builder(itemBuilder: (context, index){
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text(arrContent[index]["name"].toString(), style: TextStyle(fontSize: 12),),
+                  child: Text(arrContent[index]["name"].toString(), style: TextStyle(fontSize: 11),),
                 );
              }, itemCount: arrContent.length, scrollDirection: Axis.horizontal,
              
