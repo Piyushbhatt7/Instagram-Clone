@@ -9,42 +9,50 @@ class MessageScreen extends StatelessWidget {
   var arrContent = [
     {
                         "img": "pi.png",
-                        "name": "josuha_ima"
+                        "name": "josuha_ima",
+                        "lastmsg": "Have a great day"
                    },
 
                    {
                          "img": "pic1.png",
-                         "name": "karenne"
+                         "name": "karenne",
+                          "lastmsg": "I heard you are in London"
                    },
 
                    {
                           "img": "pic2.png",
-                          "name": "andreww_"
+                          "name": "andreww_",
+                           "lastmsg": "Hii"
                    },
 
                    {
                            "img": "pic3.png",
-                           "name": "martini_rond"
+                           "name": "martini_rond",
+                            "lastmsg": "Good morning"
                    },
 
                    {
                            "img": "pic4.png",
-                           "name": "kiero_do"
+                           "name": "kiero_do",
+                            "lastmsg": "Today's wheather is nice"
                    },
 
                    {
                             "img": "pic5.png",
-                            "name": "jannie.franco"
+                            "name": "jannie.franco",
+                             "lastmsg": "Like a story"
                    },
 
                    {
                             "img": "pic6.png",
-                            "name": "m_humphrey"
+                            "name": "m_humphrey",
+                             "lastmsg": "Sounds good 😂😂"
                    },
 
                    {
                              "img": "pic7.png",
-                             "name": "maxjacobson"
+                             "name": "maxjacobson",
+                              "lastmsg": "See you on the next meeting"
                    }
   ];
   //const MessageScreen({super.key});
