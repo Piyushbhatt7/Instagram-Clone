@@ -46,18 +46,21 @@ class ProfileScreen extends StatelessWidget {
                 Column(
                   children: [
                     Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
+                    Text("Posts", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
                   ],
                 ),
                 SizedBox(width: 40,),
                 Column(
                   children: [
                     Text("1M", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
+                    Text("Followers", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
                   ],
                 ),
                   SizedBox(width: 40,),
                 Column(
                   children: [
                     Text("31K", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
+                    Text("Following", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
                   ],
                 ),
               ],
