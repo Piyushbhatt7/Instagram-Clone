@@ -37,36 +37,38 @@ class ProfileScreen extends StatelessWidget {
         SizedBox(height: 20,),
          Row(
           children: [
-            SizedBox(width: 20,),
+            SizedBox(width: 10,),
             Helper.CustomImage(imgurl: "Ov.png"),
-            SizedBox(width: 40,),
+            SizedBox(width: 25,),
             Row(
               children: [
               
                 Column(
                   children: [
                     Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
-                    Text("Posts", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
+                    Text("Posts", style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),)
                   ],
                 ),
-                SizedBox(width: 40,),
+                SizedBox(width: 15,),
                 Column(
                   children: [
                     Text("1M", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
-                    Text("Followers", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
+                    Text("Followers", style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),)
                   ],
                 ),
-                  SizedBox(width: 40,),
+                  SizedBox(width: 15,),
                 Column(
                   children: [
                     Text("31K", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
-                    Text("Following", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
+                    Text("Following", style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),)
                   ],
                 ),
               ],
             )
           ],
-         )
+         ),
+
+          Text("piyushbhatt", style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),)
       ],
      ),
             
