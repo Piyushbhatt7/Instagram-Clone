@@ -63,7 +63,7 @@ class FollowingScreen extends StatelessWidget {
            return ListTile(
             leading: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
             title: Text(arrContent[index]["txt"].toString()),
-            trailing: Helper.CustomImage(imgurl: imgurl),
+            trailing: Helper.CustomImage(imgurl: arrContent[index]["lstimg"].toString()),
            );
          }),
        ),
