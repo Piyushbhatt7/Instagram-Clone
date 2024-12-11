@@ -221,10 +221,12 @@ class ProfileScreen extends StatelessWidget {
                     ),
                 ),),
 
-                TabBarView(children: [
-                   Post(),
-                   TagsScreen(),
-                ])
+                Expanded(
+                  child: TabBarView(children: [
+                     Post(),
+                     TagsScreen(),
+                  ]),
+                )
         ],
        ),
               
