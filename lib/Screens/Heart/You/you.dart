@@ -12,7 +12,7 @@ class YouScreen extends StatelessWidget {
         Container(
           height: 48,
           width: double.infinity,
-          color: Colors.black,
+          //color: Colors.black,
           child: Padding(
             padding: const EdgeInsets.only(top: 15.0, left: 20),
             child: Text(
@@ -27,7 +27,7 @@ class YouScreen extends StatelessWidget {
         Container(
           height: 110,
           width: double.infinity,
-          color: Colors.black,
+         // color: Colors.black,
           child: Column(
             children: [
               SizedBox(
@@ -74,7 +74,7 @@ class YouScreen extends StatelessWidget {
                 child: ListTile(
                   leading: Helper.CustomImage(imgurl: "pro1.png",),
                   title: Text(
-                    "Karenne liked you photo. 1h",
+                    "jiss_o liked you photo. 1h",
                     style: TextStyle(fontSize: 12),
                   ),
                   trailing: Helper.CustomImage(imgurl: "rec.png"),
@@ -88,7 +88,7 @@ class YouScreen extends StatelessWidget {
                 child: ListTile(
                   leading: Helper.CustomImage(imgurl: "pro2.png",),
                   title: Text(
-                    "Karenne liked you photo. 1h",
+                    "emma_08 Comment on your photo. 1h",
                     style: TextStyle(fontSize: 12),
                   ),
                   trailing: Helper.CustomImage(imgurl: "rec.png"),
@@ -110,7 +110,7 @@ class YouScreen extends StatelessWidget {
                 child: ListTile(
                   leading: Helper.CustomImage(imgurl: "Profiles.png",),
                   title: Text(
-                    "Karenne liked you photo. 1h",
+                    "Sam liked you photo. 1h",
                     style: TextStyle(fontSize: 12),
                   ),
                   trailing: Helper.CustomImage(imgurl: "rec.png"),
@@ -123,30 +123,58 @@ class YouScreen extends StatelessWidget {
          SizedBox(height: 10,),
 
               Padding(
-                padding: const EdgeInsets.only(left: 5.0),
+                padding: const EdgeInsets.only(left: 8.0),
                 child: ListTile(
                   leading: Helper.CustomImage(imgurl: "pro3.png",),
                   title: Text(
-                    "Karenne liked you photo. 1h",
+                    "zayn_mak started following you. 4d",
                     style: TextStyle(fontSize: 12),
                   ),
-                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                  trailing: Container(
+                     width: 90,
+                     height: 30,
+                     decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.white24
+                      ),
+
+                      borderRadius: BorderRadius.circular(3)
+                     ),
+ 
+                     child: Center(
+                      child: Text("Message"),
+                     ),
+                  )
                 ),
               ),
 
 
               
-         SizedBox(height: 10,),
+        SizedBox(height: 10,),
 
               Padding(
-                padding: const EdgeInsets.only(left: 5.0),
+                padding: const EdgeInsets.only(left: 8.0),
                 child: ListTile(
                   leading: Helper.CustomImage(imgurl: "pro5.png",),
                   title: Text(
-                    "Karenne liked you photo. 1h",
+                    "jackson started following you. 4d",
                     style: TextStyle(fontSize: 12),
                   ),
-                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                  trailing: Container(
+                     width: 90,
+                     height: 30,
+                     decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.white24
+                      ),
+
+                      borderRadius: BorderRadius.circular(3)
+                     ),
+ 
+                     child: Center(
+                      child: Text("Message"),
+                     ),
+                  )
                 ),
               ),
       ],
