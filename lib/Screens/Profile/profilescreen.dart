@@ -88,6 +88,11 @@ class ProfileScreen extends StatelessWidget {
 
             SizedBox(
               height: 25,
+              width: 320,
+              child: ElevatedButton(onPressed: (){
+
+              },
+               child: Text("Edit Profile", style: TextStyle(color: Colors.white),)),
               
               )
       ],
