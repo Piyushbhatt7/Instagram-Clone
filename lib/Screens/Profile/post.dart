@@ -31,12 +31,18 @@ class Post extends StatelessWidget {
     return Scaffold(
      
 
-     body: GridView(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-     children: [
-
-     ],),
+     body: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), itemBuilder: 
+     (context,index){
+       
+       return Container(
+        width: 120,
+        height: 120,
+          
+          child: Image.network(arrContent[index]["img"]),
+       );
+     },
     
-    
+     )
     );
   }
 }
