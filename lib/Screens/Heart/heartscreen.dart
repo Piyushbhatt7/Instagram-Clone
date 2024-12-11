@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Heart/Following/follow.dart';
+import 'package:instagram_clone/Screens/Heart/You/you.dart';
 
 class HeartScreen extends StatelessWidget {
   const HeartScreen({super.key});
@@ -23,7 +25,8 @@ class HeartScreen extends StatelessWidget {
 
         body: TabBarView(children: [
            
-           
+             FollowingScreen(),
+             YouScreen()
         ]),
         
       ),
