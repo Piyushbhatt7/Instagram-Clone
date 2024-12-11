@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Widgets/helper.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -8,7 +9,11 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
         body: AppBar(
       title: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
+
+          Helper.CustomImage(imgurl: "lock.png"),
+          SizedBox(width: 5.0,),
           Text(
             "piyushbhatt",
             style: TextStyle(
@@ -18,7 +23,7 @@ class ProfileScreen extends StatelessWidget {
           ),
         ],
       ),
-      centerTitle: true,
+      
     ));
   }
 }
