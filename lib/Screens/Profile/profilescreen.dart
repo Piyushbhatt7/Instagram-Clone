@@ -68,12 +68,19 @@ class ProfileScreen extends StatelessWidget {
           ],
          ),
 
-         SizedBox(height: 20,),
+         SizedBox(height: 25,),
 
           Row(
             children: [
-                SizedBox(width: 25,),
+                SizedBox(width: 20,),
               Text("piyushbhatt", style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),),
+            ],
+          ),
+
+           Row(
+            children: [
+                SizedBox(width: 20,),
+              Text("You become what you think!", style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),),
             ],
           )
       ],
