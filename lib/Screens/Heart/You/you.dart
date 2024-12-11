@@ -34,7 +34,14 @@ SizedBox(height: 10,),
                     Text("New", style: TextStyle(fontSize: 15),),
                    
                   ],
+                ),
+
+                ListTile(
+                    leading:  Helper.CustomImage(imgurl: "pic1.png"),
+                    title: Text("Karenne liked you photo. 1h", style: TextStyle(fontSize: 13),),
                 )
+
+                
               ],
             ),
           )
