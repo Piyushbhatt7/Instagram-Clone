@@ -142,10 +142,11 @@ class ProfileScreen extends StatelessWidget {
                            color: Colors.black,
                            border: Border.all(color: Colors.grey.shade800)
                       ),
-                      child: Helper.CustomImage(imgurl: "")
+                      child: Helper.CustomImage(imgurl: "st1.png"),
+                      
                      ),
                      SizedBox(height: 10,),
-                     Text("New", style: TextStyle(fontSize: 12),)
+                     Text("Friends", style: TextStyle(fontSize: 12),)
                    ],
                  ),
 
@@ -164,12 +165,10 @@ class ProfileScreen extends StatelessWidget {
                            color: Colors.black,
                            border: Border.all(color: Colors.grey.shade800)
                       ),
-                      child: Center(
-                        child: Icon(Icons.add, size: 40,),
-                      ),
+                      child: Helper.CustomImage(imgurl: "st3.png"),
                      ),
                      SizedBox(height: 10,),
-                     Text("New", style: TextStyle(fontSize: 12),)
+                     Text("Memories", style: TextStyle(fontSize: 12),)
                    ],
                  ),
  
@@ -187,12 +186,10 @@ class ProfileScreen extends StatelessWidget {
                            color: Colors.black,
                            border: Border.all(color: Colors.grey.shade800)
                       ),
-                      child: Center(
-                        child: Icon(Icons.add, size: 40,),
-                      ),
+                      child: Helper.CustomImage(imgurl: "st2.png")
                      ),
                      SizedBox(height: 10,),
-                     Text("New", style: TextStyle(fontSize: 12),)
+                     Text("Walking!", style: TextStyle(fontSize: 12),)
                    ],
                  ),
 
