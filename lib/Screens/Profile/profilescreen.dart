@@ -23,6 +23,12 @@ class ProfileScreen extends StatelessWidget {
           ),
         ],
       ),
+
+      actions: [
+        IconButton(onPressed: (){
+         
+        }, icon:  Helper.CustomImage(imgurl: "menu.png"),)
+      ],
       
     ));
   }
