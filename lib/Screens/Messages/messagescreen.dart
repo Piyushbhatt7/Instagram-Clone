@@ -188,7 +188,7 @@ class MessageScreen extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-               Helper.CustomImage(imgurl: "cam.png"),
+               Helper.CustomImage(imgurl: "cam.png"),  
                SizedBox(width: 5,),
                Text("Camera", style: TextStyle(fontSize: 13, color: Color(0XFF3897F0)),)
             ],
