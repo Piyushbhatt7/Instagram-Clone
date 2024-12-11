@@ -12,6 +12,7 @@ class HeartScreen extends StatelessWidget {
         appBar: AppBar(
           bottom: TabBar(
             unselectedLabelColor: Colors.grey,
+            labelColor: Colors.white,
             indicatorColor: Colors.white,
             indicatorSize: TabBarIndicatorSize.tab,
             tabs: [
@@ -19,6 +20,11 @@ class HeartScreen extends StatelessWidget {
              Tab(text: "You",)
           ]),
         ),
+
+        body: TabBarView(children: [
+           
+           
+        ]),
         
       ),
     );
