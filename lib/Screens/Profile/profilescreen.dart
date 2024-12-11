@@ -101,19 +101,19 @@ class ProfileScreen extends StatelessWidget {
               ),
 
               SizedBox(
-                height: 10,
+                height: 20,
               ),
 
               Row(
              //   mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                    SizedBox(width: 12,),
+                    SizedBox(width: 15,),
                  Column(
                    children: [
                   
                      Container(
-                      width: 60,
-                      height: 60,
+                      width: 65,
+                      height: 65,
                       decoration: BoxDecoration(
                            shape: BoxShape.circle,
                            color: Colors.black,
@@ -123,10 +123,84 @@ class ProfileScreen extends StatelessWidget {
                         child: Icon(Icons.add, size: 40,),
                       ),
                      ),
-
-                     Text("New")
+                     SizedBox(height: 10,),
+                     Text("New", style: TextStyle(fontSize: 12),)
                    ],
-                 )
+                 ),
+
+                SizedBox(width: 15,),
+
+                  Column(
+                   children: [
+                  
+                     Container(
+                      clipBehavior: Clip.antiAlias,
+                      width: 65,
+                      height: 65,
+                      decoration: BoxDecoration(
+                           shape: BoxShape.circle,
+                           color: Colors.black,
+                           border: Border.all(color: Colors.grey.shade800)
+                      ),
+                      child: Helper.CustomImage(imgurl: "")
+                     ),
+                     SizedBox(height: 10,),
+                     Text("New", style: TextStyle(fontSize: 12),)
+                   ],
+                 ),
+
+
+                SizedBox(width: 15,),
+
+                  Column(
+                   children: [
+                  
+                     Container(
+                       clipBehavior: Clip.antiAlias,
+                      width: 65,
+                      height: 65,
+                      decoration: BoxDecoration(
+                           shape: BoxShape.circle,
+                           color: Colors.black,
+                           border: Border.all(color: Colors.grey.shade800)
+                      ),
+                      child: Center(
+                        child: Icon(Icons.add, size: 40,),
+                      ),
+                     ),
+                     SizedBox(height: 10,),
+                     Text("New", style: TextStyle(fontSize: 12),)
+                   ],
+                 ),
+ 
+                 SizedBox(width: 15,),
+
+                  Column(
+                   children: [
+                  
+                     Container(
+                       clipBehavior: Clip.antiAlias,
+                      width: 65,
+                      height: 65,
+                      decoration: BoxDecoration(
+                           shape: BoxShape.circle,
+                           color: Colors.black,
+                           border: Border.all(color: Colors.grey.shade800)
+                      ),
+                      child: Center(
+                        child: Icon(Icons.add, size: 40,),
+                      ),
+                     ),
+                     SizedBox(height: 10,),
+                     Text("New", style: TextStyle(fontSize: 12),)
+                   ],
+                 ),
+
+
+
+                  
+
+
                 ],
               )
       ],
