@@ -166,7 +166,7 @@ class SearchScreen extends StatelessWidget {
              
                      Container(
                       height: 32,
-                      width: 68,
+                      width: 60,
                       decoration: BoxDecoration(
                          border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
@@ -185,7 +185,7 @@ class SearchScreen extends StatelessWidget {
              
                      Container(
                       height: 32,
-                      width: 50,
+                      width: 40,
                       decoration: BoxDecoration(
                          border: Border.all(color: Colors.white10),
                          borderRadius: BorderRadius.circular(3)
