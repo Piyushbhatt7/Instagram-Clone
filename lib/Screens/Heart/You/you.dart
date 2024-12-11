@@ -72,6 +72,42 @@ class YouScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 5.0),
                 child: ListTile(
+                  leading: Helper.CustomImage(imgurl: "pro1.png",),
+                  title: Text(
+                    "Karenne liked you photo. 1h",
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                ),
+              ),
+
+               SizedBox(height: 10,),
+
+                Padding(
+                padding: const EdgeInsets.only(left: 5.0),
+                child: ListTile(
+                  leading: Helper.CustomImage(imgurl: "pro2.png",),
+                  title: Text(
+                    "Karenne liked you photo. 1h",
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                ),
+              ),
+
+
+              
+         SizedBox(height: 10,),
+
+         Row(
+          children: [
+            SizedBox(width: 20,),
+            Text("This week",style: TextStyle(fontSize: 15),),
+          ],
+         ),
+              Padding(
+                padding: const EdgeInsets.only(left: 5.0),
+                child: ListTile(
                   leading: Helper.CustomImage(imgurl: "Profiles.png",),
                   title: Text(
                     "Karenne liked you photo. 1h",
@@ -79,7 +115,40 @@ class YouScreen extends StatelessWidget {
                   ),
                   trailing: Helper.CustomImage(imgurl: "rec.png"),
                 ),
-              )
+              ),
+
+
+
+              
+         SizedBox(height: 10,),
+
+              Padding(
+                padding: const EdgeInsets.only(left: 5.0),
+                child: ListTile(
+                  leading: Helper.CustomImage(imgurl: "pro3.png",),
+                  title: Text(
+                    "Karenne liked you photo. 1h",
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                ),
+              ),
+
+
+              
+         SizedBox(height: 10,),
+
+              Padding(
+                padding: const EdgeInsets.only(left: 5.0),
+                child: ListTile(
+                  leading: Helper.CustomImage(imgurl: "pro5.png",),
+                  title: Text(
+                    "Karenne liked you photo. 1h",
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Helper.CustomImage(imgurl: "rec.png"),
+                ),
+              ),
       ],
     ));
   }
