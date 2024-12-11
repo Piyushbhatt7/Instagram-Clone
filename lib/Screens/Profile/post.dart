@@ -38,8 +38,11 @@ class Post extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         width: 120,
         height: 120,
+        decoration: BoxDecoration(
+             
+        ),
           
-          child: Image.network(arrContent[index]["img"].toString()),
+          child: Image.network(arrContent[index]["img"].toString(), fit: BoxFit.cover,),
        );
      }, itemCount: arrContent.length,
     
