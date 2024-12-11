@@ -39,10 +39,12 @@ class ProfileScreen extends StatelessWidget {
           children: [
             SizedBox(width: 20,),
             Helper.CustomImage(imgurl: "Ov.png"),
-            SizedBox(width: 80,),
+            SizedBox(width: 60,),
             Row(
               children: [
-                Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
+                Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
+                Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
+                Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
               ],
             )
           ],
