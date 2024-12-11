@@ -86,13 +86,17 @@ class ProfileScreen extends StatelessWidget {
             ],
           ),
 
+          SizedBox(height: 20,),
+
             SizedBox(
-              height: 25,
-              width: 320,
+              height: 35,
+              width: 305,
               child: ElevatedButton(onPressed: (){
 
-              },
-               child: Text("Edit Profile", style: TextStyle(color: Colors.white),)),
+              }, style: ElevatedButton.styleFrom(
+                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6))
+              ),
+               child: Text("Edit Profile", style: TextStyle(color: Colors.white, fontSize: 14),)),
               
               )
       ],
