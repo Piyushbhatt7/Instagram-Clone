@@ -14,7 +14,7 @@ class FollowingScreen extends StatelessWidget {
 
   {
 
-    "img": "pro5.png",
+    "img": "pro2.png",
     "txt": "craig_love liked 8 posts. 3h",
     "lstimg": "rec.png",
  },
@@ -22,7 +22,7 @@ class FollowingScreen extends StatelessWidget {
 
  {
 
-    "img": "pro5.png",
+    "img": "Profiles.png",
     "txt": "maxjacobson and craig_love liked martini_rond’s post. 3h",
     "lstimg": "rec.png",
  },
@@ -30,14 +30,14 @@ class FollowingScreen extends StatelessWidget {
 
  {
 
-    "img": "pro5.png",
+    "img": "pro1.png",
     "txt": "karennne liked martini_rond’s comment: @martini_rond Nice! 3h",
     "lstimg": "rec2.png",
  },
 
  {
 
-    "img": "pro5.png",
+    "img": "pro2.png",
     "txt": "maxjacobson liked 3 posts. 3h",
     "lstimg": "rec2.png",
  },
@@ -45,7 +45,7 @@ class FollowingScreen extends StatelessWidget {
 
  {
 
-    "img": "pro5.png",
+    "img": "pro4.png",
     "txt": "jackson liked 2 posts. 2h",
     "lstimg": "rec2.png",
  },
@@ -68,7 +68,7 @@ class FollowingScreen extends StatelessWidget {
               trailing: Helper.CustomImage(imgurl: arrContent[index]["lstimg"].toString()),
              ),
            );
-         }),
+         }, itemCount: arrContent.length,),
        ),
          
     );
