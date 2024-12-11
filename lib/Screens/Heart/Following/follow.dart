@@ -37,7 +37,7 @@ class FollowingScreen extends StatelessWidget {
 
  {
 
-    "img": "pro2.png",
+    "img": "ove.png",
     "txt": "maxjacobson liked 3 posts. 3h",
     "lstimg": "rec2.png",
  },
