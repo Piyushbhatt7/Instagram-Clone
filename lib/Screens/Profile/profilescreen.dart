@@ -206,7 +206,7 @@ class ProfileScreen extends StatelessWidget {
                 SizedBox(height: 50,
                 
                 child: AppBar(
-                  bottom: TabBar(tabs: Tab(icon: Helper.CustomImage(imgurl: imgurl),)),
+                  bottom: TabBar(tabs: Tab(icon: Helper.CustomImage(imgurl: "grid.png"),)),
                 ),)
         ],
        ),
