@@ -57,13 +57,16 @@ class FollowingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         
-       body: ListView.builder(itemBuilder: (context, index){
-         return ListTile(
-          leading: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
-          
-          trailing: Helper.CustomImage(imgurl: [index]["lstimg"].toString()),
-         )
-       }),
+       body: Padding(
+         padding: const EdgeInsets.only(top: 20.0),
+         child: ListView.builder(itemBuilder: (context, index){
+           return ListTile(
+            leading: Helper.CustomImage(imgurl: arrContent[index]["img"].toString()),
+            title: Text(arrContent[index]["txt"].toString()),
+            trailing: Helper.CustomImage(imgurl: imgurl),
+           );
+         }),
+       ),
          
     );
   }
