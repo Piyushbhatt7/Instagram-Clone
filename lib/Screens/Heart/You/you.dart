@@ -19,7 +19,7 @@ class YouScreen extends StatelessWidget {
               child: Text("Follow Request",style: TextStyle(fontSize: 15, color: Color(0XFFF9F9F9)),),
             ),
           ),
-
+SizedBox(height: 10,),
           Container(
             height: 106,
             width: double.infinity,
@@ -27,7 +27,14 @@ class YouScreen extends StatelessWidget {
 
             child: Column(
               children: [
-                Helper.CustomImage(imgurl: imgurl)
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    SizedBox(width: 20,),
+                    Text("New", style: TextStyle(fontSize: 15),),
+                   
+                  ],
+                )
               ],
             ),
           )
