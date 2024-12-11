@@ -1,5 +1,5 @@
-class name extends StatelessWidget {
-  const name({super.key});
+class FollowingScreen extends StatelessWidget {
+  const FollowingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
