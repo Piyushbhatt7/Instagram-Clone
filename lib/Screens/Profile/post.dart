@@ -35,12 +35,13 @@ class Post extends StatelessWidget {
      (context,index){
        
        return Container(
+        clipBehavior: Clip.antiAlias,
         width: 120,
         height: 120,
           
-          child: Image.network(arrContent[index]["img"]),
+          child: Image.network(arrContent[index]["img"].toString()),
        );
-     },
+     }, itemCount: arrContent.length,
     
      )
     );
