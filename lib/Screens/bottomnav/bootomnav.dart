@@ -5,7 +5,7 @@ import 'package:instagram_clone/Screens/Home/homescreen.dart';
 import 'package:instagram_clone/Screens/Post/postscreen.dart';
 import 'package:instagram_clone/Screens/Search/searchscreen.dart';
 import 'package:instagram_clone/Screens/Profile/profilescreen.dart';
-import 'package:instagram_clone/Widgets/helper.dart';
+
 
 class BootomNav extends StatefulWidget {
   const BootomNav({super.key});
