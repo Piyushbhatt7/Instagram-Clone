@@ -7,7 +7,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: AppBar(
+        appBar: AppBar(
       title: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -30,6 +30,28 @@ class ProfileScreen extends StatelessWidget {
         }, icon:  Helper.CustomImage(imgurl: "menu.png"),)
       ],
       
-    ));
+    ),
+
+     body: Column(
+      children: [
+        SizedBox(height: 20,),
+         Row(
+          children: [
+            SizedBox(width: 20,),
+            Helper.CustomImage(imgurl: "Ov.png"),
+            SizedBox(width: 80,),
+            Row(
+              children: [
+                Text("45", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),)
+              ],
+            )
+          ],
+         )
+      ],
+     ),
+            
+    
+    
+    );
   }
 }
