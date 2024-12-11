@@ -5,9 +5,21 @@ class HeartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Center(
-        child: Text('Heart screen'),
+    return  DefaultTabController(
+      length: 2,
+      child: Scaffold(
+
+        appBar: AppBar(
+          bottom: TabBar(
+            unselectedLabelColor: Colors.grey,
+            indicatorColor: Colors.white,
+            indicatorSize: TabBarIndicatorSize.tab,
+            tabs: [
+            Tab(text: "Following",),
+             Tab(text: "You",)
+          ]),
+        ),
+        
       ),
     );
   }
