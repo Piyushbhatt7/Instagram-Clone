@@ -208,6 +208,7 @@ class ProfileScreen extends StatelessWidget {
                 child: AppBar(
                   bottom: TabBar(
                     indicatorColor: Colors.white,
+                    indicatorSize: TabBarIndicatorSize.tab,
                     tabs: [
                     
                     Tab(icon: Helper.CustomImage(imgurl: "grid.png"),),
