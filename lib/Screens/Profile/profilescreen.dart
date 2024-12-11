@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/Screens/Profile/post.dart';
+import 'package:instagram_clone/Screens/Profile/tags.dart';
 import 'package:instagram_clone/Widgets/helper.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -217,7 +219,12 @@ class ProfileScreen extends StatelessWidget {
                     ]
                     
                     ),
-                ),)
+                ),),
+
+                TabBarView(children: [
+                   Post(),
+                   TagsScreen(),
+                ])
         ],
        ),
               
