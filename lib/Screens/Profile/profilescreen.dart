@@ -7,6 +7,9 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: AppBar(
+         leading: Icon(Icons.lock, size: 15,),
+         title: Text("piyushbhatt"),
+         centerTitle: true,
         
       )
     );

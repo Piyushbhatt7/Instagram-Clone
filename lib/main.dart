@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clone/Screens/Home/homescreen.dart';
 import 'package:instagram_clone/Screens/Login/loginscreen.dart';
 import 'package:instagram_clone/Screens/Profile/Search/searchscreen.dart';
+import 'package:instagram_clone/Screens/Profile/profilescreen.dart';
 import 'package:instagram_clone/Screens/Splash/splashscreen.dart';
 import 'package:instagram_clone/Screens/Signup/signup.dart';
 import 'package:instagram_clone/Screens/bottomnav/bootomnav.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Instagram',
       theme: ThemeData.dark(),
-      home: BootomNav(),
+      home: ProfileScreen(),
     );
   }
 }
