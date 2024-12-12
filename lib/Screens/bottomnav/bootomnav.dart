@@ -14,7 +14,7 @@ class BootomNav extends StatefulWidget {
   State<BootomNav> createState() => _BootomNavState();
 }
 
-class _BootomNavState extends State<BootomNav> { 
+class _BootomNavState extends State<BootomNav> {  
   int curretIndex = 0;
 
   List<Widget> pages = [
