@@ -18,7 +18,7 @@ class _BootomNavState extends State<BootomNav> {
   int curretIndex = 0;
 
   List<Widget> pages = [
-    HomeScreen(),
+    HomeScreen(), 
     SearchScreen(), 
     PostScreen(),                   
     HeartScreen(),
