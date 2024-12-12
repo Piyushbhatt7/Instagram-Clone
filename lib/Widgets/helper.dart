@@ -57,18 +57,17 @@ class Helper {
       child: ElevatedButton(
           onPressed: () {
             callback();
-            
-          }, style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3797EF), shape: RoundedRectangleBorder(
-
-            borderRadius: BorderRadius.circular(5),
-          )),
+          },
+          style: ElevatedButton.styleFrom(
+              backgroundColor: Color(0xFF3797EF),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(5),
+              )),
           child: Center(
               child: Text(
             buttonname,
             style: TextStyle(fontSize: 14, color: Colors.white),
-          )
-          )
-          ),
+          ))),
     );
   }
 }
