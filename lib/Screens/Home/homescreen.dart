@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Column( 
           children: [ 
-            SizedBox(
+            SizedBox(  
               height: 50,
               child: Padding(
                 padding: const EdgeInsets.only(left: 10.0),  
