@@ -10,7 +10,7 @@ import 'package:instagram_clone/Screens/Profile/profilescreen.dart';
 class BootomNav extends StatefulWidget {
   const BootomNav({super.key});
 
-  @override
+  @overridem 
   State<BootomNav> createState() => _BootomNavState();
 }
 
