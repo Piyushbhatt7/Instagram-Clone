@@ -13,7 +13,7 @@ class BootomNav extends StatefulWidget {
   @override 
   State<BootomNav> createState() => _BootomNavState();
 }
-
+ 
 class _BootomNavState extends State<BootomNav> {  
   int curretIndex = 0;
 
