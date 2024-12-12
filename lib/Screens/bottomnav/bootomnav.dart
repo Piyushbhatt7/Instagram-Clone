@@ -20,7 +20,7 @@ class _BootomNavState extends State<BootomNav> {
   List<Widget> pages = [
     HomeScreen(),
     SearchScreen(),
-    PostScreen(),
+    PostScreen(),                   
     HeartScreen(),
     ProfileScreen(),
   ];
