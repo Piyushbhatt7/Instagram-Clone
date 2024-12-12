@@ -16,7 +16,7 @@ class BootomNav extends StatefulWidget {
  
 class _BootomNavState extends State<BootomNav> {  
   int curretIndex = 0;      
-       
+        
   List<Widget> pages = [
     HomeScreen(), 
     SearchScreen(), 
