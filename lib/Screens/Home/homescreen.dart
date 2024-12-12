@@ -62,7 +62,8 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {}, icon: Helper.CustomImage(imgurl: "IGTV.png")),
             IconButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> MessageScreen()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => MessageScreen()));
                 },
                 icon: Helper.CustomImage(imgurl: "Messanger.png"))
           ],
