@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                 icon: Helper.CustomImage(imgurl: "Messanger.png"))
           ],
         ),
-        body: Column(
+        body: Column( 
           children: [
             SizedBox(
               height: 50,
