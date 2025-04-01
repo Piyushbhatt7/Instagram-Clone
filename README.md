@@ -1,16 +1,56 @@
-# instagram_clone
+![image](https://github.com/user-attachments/assets/39dddaa8-bd25-4ba3-a373-1129a78cd077)# Instagram UI Clone
 
-A new Flutter project.
+A Flutter-based Instagram UI clone that mimics the interface and design of the official Instagram app.
 
-## Getting Started
+## Features
+- **Home Feed** with post interactions (like, comment, share)
+- **Stories Section** similar to Instagram stories
+- **Profile Page** with posts and user info
+- **Bottom Navigation Bar** for easy navigation
+- **Responsive UI** for both Android & iOS
 
-This project is a starting point for a Flutter application.
+## Deployment
+This application is deployed and accessible at:  
+https://instacloneui.netlify.app/
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run Locally
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/instagram-ui.git
+   cd instagram-ui
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the app:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
+Home Screen :-
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/38934772-6b7d-44c7-a689-ded1d91c77e6)
+
+
+Search Screen :-
+
+![image](https://github.com/user-attachments/assets/039fc7b3-f2a5-4ac5-a599-1cf96bb6617b)
+
+User Profile :- 
+
+![image](https://github.com/user-attachments/assets/ad5c5297-0d22-47fa-8a92-b1d8865b5ee3)
+
+
+
+
+## Technologies Used
+- **Flutter** for UI
+- **Dart** for logic
+
+## Contributing
+Feel free to fork the project and submit a pull request for improvements.
+
+## License
+This project is licensed under the MIT License.
